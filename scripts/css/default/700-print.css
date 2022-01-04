@@ -1,0 +1,23 @@
+printheader {display:none;}
+
+@media print {
+  
+  body{background-color:#fff;}
+  
+  filter,icon,nav,menu,header,window,grade,item{display:none !important;}
+  item[open="1"]{border-left:0 !important;display:block !important;padding-top:70px;}
+  
+  
+  item[open="1"] user{top:0px;left:0px;position:absolute;}
+  item[open="1"] pacientes{top:20px;left:0px;position:absolute;}
+  item[open="1"] medicos{top:40px;left:0px;position:absolute;}
+  
+  item p {white-space:pre;}
+  figure{-webkit-print-color-adjust: exact; }
+  detalhes {overflow: auto !important;white-space: normal !important;}
+  detalhes > figure {display:block;float:left;width:256px !important;height:256px !important;margin: 0 10px 10px 0 !important;}
+  
+  printheader {display:block;width:100%;background-color:#444;float:left;}
+  printheader logo{padding:10px;float:left;color:#fff;}
+  
+}

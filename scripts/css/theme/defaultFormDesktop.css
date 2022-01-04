@@ -1,0 +1,30 @@
+
+body[mobile="0"] window form {padding:0 0 10px 0;min-height:300px;}
+
+body[mobile="0"] form div[grid="3"] {} 
+body[mobile="0"] form div[grid="3"] .default{width:220px;} 
+
+body[mobile="0"] form div[grid="2"] {}
+body[mobile="0"] form div[grid="2"] .default{width:395px;}
+
+body[mobile="0"] form div[grid="1"] {width:100%;} 
+body[mobile="0"] form div[grid="1"] .default{width:800px;} 
+body[mobile="0"] form div[grid="1"] uploadedfiles{width:800px;height:150px;} 
+
+
+body[mobile="0"] form div[grid="1"] multipleview {width:800px;float:left;}
+
+body[mobile="0"] form div[grid="1"] multiplehidden {width: 780px;float:left;}
+
+body[mobile="0"] form div[grid="1"] tagsearchbox {width:400px;}
+body[mobile="0"] form div[grid="1"] tagview {width:800px;}
+body[mobile="0"] form div[grid="1"] taghidden {width:100%;height:131px;}
+body[mobile="0"] form div[grid="1"][type="hide"] > input {float:left;}
+body[mobile="0"] form div[grid="2"] tagview {width:395px;}
+body[mobile="0"] form div[grid="2"] taghidden {width:100%;height:131px;}
+body[mobile="0"] form div[grid="1"] tagsearchbox {width:400px;}
+
+body[mobile="0"] form div[grid="3"] tagsearchbox {width:400px;}
+body[mobile="0"] form div[grid="3"] tagview {width:200px;}
+body[mobile="0"] form div[grid="3"] taghidden {width:100%;height:131px;}
+body[mobile="0"] form div[grid="2"] tooltipv2icon tooltipv2 {  width: 250px;height:90px;}

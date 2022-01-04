@@ -1,0 +1,2 @@
+window [type="textarea"] select {display:none;}
+window[category="receituario"] [type="textarea"] select {display:block;}

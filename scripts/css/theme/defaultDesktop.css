@@ -1,0 +1,7 @@
+
+/* Desktop */
+
+body[mobile="0"] view detalhes figure{display:inline-block;}
+
+body[mobile="0"] window {width:820px;box-shadow:0 0px 20px 0px #000;}
+body[mobile="0"] filter > input {width:860px;}

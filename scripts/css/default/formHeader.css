@@ -1,0 +1,20 @@
+window > header {width: 100%;float:left;}
+
+window > header > label {padding:18px 0 0 10px;float:left;color:#fff;}
+
+window > header > button {visibility:hidden;color: #fff;  cursor: pointer;   box-shadow: none;  border: 0;  background-color: transparent;  padding:10px;  float:right;}
+
+window > header > icon {cursor:pointer;color:#fff;float:right;float: right;padding: 15px;height: 9px;font-size: 120%;line-height: 0.3;}
+
+window > header > icon[action]{float:right; font-size: 120%;line-height: 0.8;height: 15px;margin-bottom: 5px;margin-top: 5px;}
+
+window > header > icon[action="back"]{float:left;margin-left:10px;margin-right:0;}
+window > header > icon[action="save"]{margin-right:10px;}
+
+window > header > icon[action="attach"]{position:relative;overflow:hidden;}
+
+window > header > icon[action="attach"] input{position: absolute;cursor:pointer;left: 0;top: 0;height: 100%;width: 100%;opacity: 0;}
+
+window > header > icon[action="close"]{float:right; font-size: 60%;line-height: 1.2;}
+
+window > header > icon:hover {color:#444;}

@@ -1,0 +1,17 @@
+/* Form Hide */
+
+form > div[type="hide"] {}
+
+form > div[type="hide"] > label {  cursor: pointer;float:left;margin:4px 0;line-height:1.5;}
+
+form > div[type="hide"] > input {  display: block;float:right;width:50px;padding:0;box-shadow:none;background-color:transparent;border-bottom:1px solid #000;margin:17px 15px 15px 0;text-align:right;text-indent:2;}
+
+form > div[type="hide"][hide='0'] > input {  visibility:visible;}
+
+form > div[type="hide"][hide='1'] > input {  visibility:hidden;}
+
+form > div[type="hide"] icon {  font-size: 125%;  color: #000;margin:15px 5px 15px 15px;float:left;cursor: pointer;}
+
+form > div[type="hide"][hide='1'] icon:before {  content: "\ea53"}
+
+form > div[type="hide"][hide='0'] icon:before {  content: "\ea52"}

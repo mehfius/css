@@ -1,0 +1,15 @@
+boxnotification {height: 500px;overflow: auto;display:none;background-color: #fff; width: 400px; position: fixed; right: 10px;top: 58px;z-index: 10;box-shadow: 0px 0px 10px -7px #000;}
+body[notification="1"] boxnotification {display:block;}
+
+boxnotification notifications {float:left;}
+boxnotification notifications div:nth-child(1) {border-top-width:1px ;}
+boxnotification notifications div {position: relative;float:left;padding: 10px; border-width: 0 0 1px 0;border-color: #ccc;border-style: solid;font-size:80%;}
+
+boxnotification notifications div[r="1"] {background-color: #fff;}
+boxnotification notifications div[r="0"] {background-color: #ddd;}
+
+boxnotification notifications div figure {margin-right:10px;width:64px; height:64px;float:left;background-color:#ccc;background-size:cover;background-position: center center;}
+boxnotification notifications div user {float:left;margin-right:5px;}
+boxnotification notifications div action {float:left;margin-right:5px;}
+boxnotification notifications div modules {float:left;margin-right:5px;}
+boxnotification notifications div date {float:left;position:absolute;bottom:10px;right:10px;}

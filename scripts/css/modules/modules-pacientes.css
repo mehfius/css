@@ -1,0 +1,31 @@
+body[modules='pacientes'] menu button[action="new"]{display:none;}
+
+body[modules='pacientes'] tabela item {padding-bottom:0;}
+body[modules='pacientes'] tabela item figure {width:60px;height:60px;float:left;background-color:#ddd;background-size: cover;margin:0 0 10px 10px;}
+body[modules='pacientes'] tabela item data {position: absolute;right: 30px;top: 10px;width:auto;}
+body[modules='pacientes'] tabela item label {float:left;margin:10px 10px 10px 0;}
+body[modules='pacientes'] tabela item codigo {float:left;margin:10px 10px 10px 10px;}
+body[modules='pacientes'] tabela item detalhes {float: left;width:100%;margin:0;}
+
+body[modules='pacientes'] tabela > item > detalhes :nth-child(1n+2){margin-left:10px;margin-top:10px;float:left;}
+
+body[modules='pacientes'] tabela > item > options {position: absolute;right: 0;top: 0;cursor:pointer;padding:10px;width:auto;}
+
+body[modules='pacientes'] tabela > item > options > div{display:none;position:absolute;right:0;top:0;width:235px;}
+
+body[modules='pacientes'] tabela > item > options > div > button {padding:5px 0;width:100px;cursor:pointer;margin:5px 5px 20px 0;float:left;border-radius:3px;}
+
+body[modules='pacientes'] tabela > item > options:hover > div{display:block;}
+
+body[modules='pacientes'] tabela > item[activated="0"] {background-color:#f2a555;}
+body[modules='pacientes'] tabela > item[deleted="1"] {background-color:#eb8282;}
+
+
+body[modules='pacientes'] tabela > item[activated="0"] > options > div button[name="activated"][value="0"]{display:none;}
+body[modules='pacientes'] tabela > item[activated="1"] > options > div button[name="activated"][value="1"]{display:none;}
+
+body[modules='pacientes'] tabela > item[deleted="0"] > options > div button[name="deleted"][value="0"]{display:none;}
+body[modules='pacientes'] tabela > item[deleted="1"] > options > div button[name="deleted"][value="1"]{display:none;}
+
+body[modules='pacientes'] tabela > item[premium="0"] > options > div button[name="premium"][value="0"]{display:none;}
+body[modules='pacientes'] tabela > item[premium="1"] > options > div button[name="premium"][value="1"]{display:none;}

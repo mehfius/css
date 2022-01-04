@@ -1,0 +1,21 @@
+body[premium="0"] > nav > a[premium="1"]{
+    pointer-events: none;
+  color:#ccc;
+}
+
+
+body[premium="0"] > nav > a[premium="1"]::before{
+    content: "Premium";
+    float: right;
+    font-size: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-color: var(--suitecolor2);
+    color: var(--suitecolor2);
+    padding: 1px 2px;
+    margin-right: 20px;
+
+}
+
+
+

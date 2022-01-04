@@ -1,0 +1,17 @@
+/* Form Hide Input */
+
+form > div[type="hideinput"] {}
+
+form > div[type="hideinput"] > label {cursor: pointer;float:left;padding: 13px 0 13px 10px;line-height:1.5;}
+
+form > div[type="hideinput"] > input {display: block;float:left;width: 80%;margin-left: 50px;padding:0;box-shadow:none;background-color:transparent;border-bottom:1px solid #000;margin: 0 15px 15px 50px;text-align:left;text-indent:2;}
+
+form > div[type="hideinput"][hide='0'] > input {  display:block;}
+
+form > div[type="hideinput"][hide='1'] > input {  display:none;}
+
+form > div[type="hideinput"] icon {  font-size: 125%;  color: #000;margin:15px 5px 15px 15px;float:left;cursor: pointer;}
+
+form > div[type="hideinput"][hide='1'] icon:before {  content: "\ea53"}
+
+form > div[type="hideinput"][hide='0'] icon:before {  content: "\ea52"}

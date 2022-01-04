@@ -1,0 +1,7 @@
+body[shortcut='1'] shortcut {display:block;}
+body shortcut {z-index:10;border-radius:0 0 5px 5px;display:none;position:fixed;right:8px;top:60px;background-color:#fff;padding:10px;width:280px;}
+body shortcut > label {float:left;padding:10px;width:260px;font-weight:bold;}
+body shortcut div {float:left;padding:10px;cursor:pointer;border-radius:5px;width:260px;}
+body shortcut > div:hover{background-color:var(--color3);color:var(--color2);}
+body shortcut div label{float:left;margin-left:10px;cursor:inherit;line-height:1;}
+body shortcut div icon{float:left;cursor:inherit;}

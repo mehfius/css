@@ -1,0 +1,17 @@
+
+div[type="selectajax"] > label{}
+div[type="selectajax"] input {text-indent:50px;cursor:pointer;border-radius:5px;}
+div[type="selectajax"] input[plugin="multiply"]{display:none;}
+
+div[type="selectajax"] > figure {border-radius:5px;background-size: cover;background-position: center;background-color: #444;width: 50px;height: 50px;position: absolute;left: 15px;bottom: 5px;}
+
+div[type="selectajax"] cards{margin: 5px 0 0 10px;float:left;}
+div[type="selectajax"] card{margin-right: 10px;float:left;background-color:#f6f6f6;}
+div[type="selectajax"] cards figure{width:32px;height:32px;margin:5px;float:left;background-color:#444;background-size:cover;background-position: center;}
+div[type="selectajax"] cards label{float:left;margin-top:10px;margin-left: 5px;}
+
+div[type="selectajax"] cards btclose {cursor:pointer;padding: 13px;float: left;}
+
+div[type="selectajax"] cards btclose:hover{color:red;}
+
+div[type="selectajax"] compartilhar {}

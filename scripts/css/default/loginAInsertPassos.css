@@ -1,0 +1,28 @@
+/* login[passo="1"] #label      {display:block;}
+login[passo="1"] #email      {display:block;}
+login[passo="1"] #password   {display:block;}
+login[passo="1"] #cpf        {display:block;} */
+
+login[passo="1"] #crm        {display:none;}
+login[passo="1"] #identidade {display:none;}
+login[passo="1"] #telefone   {display:none;}
+login[passo="1"] #cep        {display:none;}
+login[passo="1"] #endereco   {display:none;}
+login[passo="1"] #cidade     {display:none;}
+login[passo="1"] #estado     {display:none;}
+login[passo="1"] #bairro     {display:none;}
+
+login[passo="2"] #label      {display:none;}
+login[passo="2"] #email      {display:none;}
+login[passo="2"] #password   {display:none;}
+
+login[passo="2"] #cpf        {display:none;}
+
+/* login[passo="2"] #crm        {display:none;}
+login[passo="2"] #identidade {display:none;}
+login[passo="2"] #telefone   {display:none;}
+login[passo="2"] #cep        {display:none;}
+login[passo="2"] #endereco   {display:none;}
+login[passo="2"] #cidade     {display:none;}
+login[passo="2"] #estado     {display:none;}
+login[passo="2"] #bairro     {display:none;} */

@@ -1,0 +1,39 @@
+
+ [theme="small"] item > header {}
+
+ [theme="small"] item > header > data {display:none;}
+ [theme="small"] item > header > icon.icon-share2 {display:none;}
+
+ [theme="small"] item {padding-bottom: 0;min-height: 100px;}
+ [theme="small"] item detalhes {overflow:auto hidden;white-space: nowrap;margin:10px;width:95%;}
+
+ [theme="small"] item > p {overflow:hidden;margin: 10px;width:98%;height:45px;}
+ [theme="small"] item > p::-webkit-scrollbar {display: none;}
+
+ [theme="small"] item detalhes > figure > label{display:none;}
+
+ [theme="small"] item detalhes figure{margin:0 10px 0 0;}
+ [theme="small"] item[view="0"] detalhes figure{width: 32px;height: 32px;}
+ [theme="small"] item[view="1"] detalhes figure{width: 270px;height: 270px;}
+
+ [theme="small"] item > options {z-index:20;float:right;width:100px;display:none;position: absolute;right: 0px;top: 40px;}
+ [theme="small"] item:hover > options {display:block;}
+
+ [theme="small"] item > header > category {padding:10px;line-height:1.5;}
+ [theme="small"] item[view="0"] > header > category {}
+ [theme="small"] item[view="1"] > header > category {}
+
+ [theme="small"] item > data {font-weight: bold;float:left;width: 100%;}
+ [theme="small"] item > data > updated{margin:10px 0 0 10px;float:left;padding: 4px 8px;border-radius: 2px;}
+ [theme="small"] item > data > created{margin:10px 0 0 10px;float:left;padding: 4px 8px;border-radius: 2px;}
+ [theme="small"] item[view="0"] > data {display:none;}
+
+
+ [theme="small"] item[view="0"] > footer > share {display:none;}
+
+ [theme="small"] item medicos {float:left;margin: 10px 10px 0 10px;border-radius: 2px;padding: 4px 8px;}
+ [theme="small"] item[view="0"] medicos {display:none;}
+/*
+ [theme="small"] item[view="0"] pacientes {display:none;}
+ [theme="small"] item[view="1"] pacientes {display:block;}*/
+ [theme="small"] item[view="1"] p {white-space: pre-wrap;height:auto;}

@@ -1,0 +1,16 @@
+item pacientes tooltipmenu{
+
+  position: absolute;
+  right: 5px;
+  top: 45px;
+  background-color: #000;
+  width:420px;
+  height:100%;
+  border-radius: 3px;
+  font-size: 60%;
+  display: block;
+  color:#fff;
+  white-space: nowrap;
+  font-family: "Droid Sans", sans-serif
+
+}

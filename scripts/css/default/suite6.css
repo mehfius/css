@@ -1,0 +1,6 @@
+body[suites='6'] window icon[action="print"]{display:none;}
+
+body[suites='6'] window[modules="users"] div input[name="crm"] {display:none;}
+body[suites='6'] view item user{display:none;}
+
+body[suites='6'] login #btInsertMedico{display:none !important;}

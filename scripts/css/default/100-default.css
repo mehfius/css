@@ -1,0 +1,442 @@
+html,
+body {
+  height: 100%
+}
+
+html,
+input,
+button,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+textarea,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: "Droid Sans", sans-serif
+}
+
+html{}
+
+ol,
+ul {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none
+}
+/*
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url('fonts/src/droidsans.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: 400;
+  src: local('icomoon'), local('icomoon'), url('/export/icomoon/fonts/icomoon.woff') format('woff')
+}
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+a {
+  text-decoration: none;
+  color: #444444
+}
+
+body {
+  color: #444444;
+  background-color: #eee;
+  margin: 0 auto;
+  overflow-x: hidden;
+  position:relative;
+
+}
+
+
+
+h1 {
+  font-size: 200%;
+  line-height: 1
+}
+
+h2 {
+  font-size: 150%;
+  line-height: 1.5
+}
+
+info {
+  background-color: #ffffc2;
+  line-height: 1;
+  padding: 10px;
+  margin: 5px;
+  float: right;
+  border-radius: 10px;
+  font-style: italic;
+  color: #000000
+}
+
+erro {
+  border: 1px solid #FCAFB0;
+  background-color: #FEB9B9;
+  line-height: 1;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  float: right;
+  border-radius: 5px;
+  font-style: italic;
+  color: #9D201A
+}
+
+
+
+
+body > section > section > a {
+  text-decoration: none;
+  color: #444444
+}
+
+body > section > section > a:link {
+  text-decoration: none;
+  color: #444444
+}
+
+body > section > section > a:visited {
+  text-decoration: none;
+  color: #444444
+}
+
+body > section > section > a:hover {
+  text-decoration: none;
+  color: #444444
+}
+
+body > section > section > a:active {
+  color: #444444;
+  text-decoration: none
+}
+
+body > section > section > h1 {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+  padding-bottom: 10px
+}
+
+filtro {
+  width: 100%;
+  float: left;
+  margin: 10px 0 10px 0
+}
+
+g > c:link {
+  text-decoration: none;
+  color: #444
+}
+
+g > c:visited {
+  text-decoration: none;
+  color: #444
+}
+
+g > c:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #004D92
+}
+
+g > c:active {
+  text-decoration: none;
+  color: #444
+}
+
+vtitle {
+  width: 96%;
+  margin: 0px 2% 15px 2%;
+  float: left
+}
+
+
+ranking {
+  float: right;
+  width: 300px;
+  margin: 0px 2% 0;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s
+}
+
+ranking[show="1"] {
+  max-height: 1000px
+}
+
+ranking div {
+  padding: 10px
+}
+
+ranking line {
+  float: left;
+  width: 100%
+}
+
+ranking line span:nth-child(1) {
+  float: left;
+  width: 70%
+}
+
+ranking line span:nth-child(2) {
+  float: left;
+  width: 30%;
+  text-align: right
+}
+/* 
+nav box {
+  position: relative;
+  color: rgb(15, 137, 202)
+}
+
+nav box {
+  margin-left: 5px;
+  position: absolute
+}
+
+tabela box {
+  margin-right: 20px
+}
+
+tabela box {
+  float: right
+}
+
+box icon:before {
+  content: "\e982"
+}
+
+box icon {
+  position: absolute;
+  -moz-animation: spin 1.0s infinite linear;
+  -webkit-animation: spin 1.0s infinite linear;
+  line-height: 1.3
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg)
+  }
+  100% {
+    -moz-transform: rotate(360deg)
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg)
+  }
+  100% {
+    -webkit-transform: rotate(360deg)
+  }
+}
+ */
+grade {
+
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  width: 100%;
+  display: none;
+  left: 0;
+  will-change: display;
+      background-color: rgba(0,0,0,0.9);
+}
+
+grade.show {
+  display: block;
+  will-change: display;
+}
+
+grade.hide {}
+
+
+
+
+relationship > span {
+  text-align: center;
+  float: left;
+  padding: 5px;
+  margin: 5px 5px 0 0;
+  line-height: 1;
+  width: 140px;
+  cursor: pointer;
+  background-color: #ccc
+}
+
+relationship > span[show="on"] {
+  background-color: #3D464F;
+  color: #ffffff
+}
+
+g[show="on"] {
+  display: block
+}
+
+relationship > g {
+  display: none;
+  float: left;
+  margin-left: 0.5%;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 10px
+}
+
+relationship > g > a {
+  float: left;
+  padding: 5px;
+  cursor: pointer;
+  margin: 5px 5px 0 0;
+  width: 140px;
+  line-height: 1
+}
+
+relationship > g > c {
+  text-align: center;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+  line-height: 1;
+  border-radius: 1px;
+  width: 140px;
+  font-size: 9pt;
+  cursor: pointer;
+  background-color: #CCC
+}
+
+relationship > g > a[on="1"],
+g > c[on="1"] {
+  cursor: pointer;
+  background-color: #3D464F;
+  color: #fff
+}
+
+relationship > g > a[on="2"],
+g > c[on="2"] {
+  cursor: pointer;
+  background-color: #128123;
+  color: #fff
+}
+
+relationship > g > a:link {
+  text-decoration: none;
+  color: #444
+}
+
+relationship > g > a:visited {
+  text-decoration: none;
+  color: #444
+}
+
+relationship > g > a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #666
+}
+
+relationship > g > a:active {
+  text-decoration: none;
+  color: #444;
+  background-color: #666
+}
+
+

@@ -1,0 +1,10 @@
+modal{display:none;background-color: #fff;width: 200px;position: absolute;right: 10px;top: 70px;border-radius: 2px;font-size: 80%;
+box-shadow: 0px 0px 2px 0px #000;}
+
+modal header{float:left;width:100%;display:none;}
+modal header label{color:#fff;padding:10px;float:left;}
+modal content{float:left;width:100%;}
+modal content p{float:left;padding:10px;line-height:1.5;}
+modal content button {cursor:pointer;margin: 0 auto;display: block;padding: 10px;margin-bottom: 10px;}
+
+modal content:nth-child(2n+1){border-top: 1px solid #000;}

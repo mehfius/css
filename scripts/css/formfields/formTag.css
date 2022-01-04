@@ -1,0 +1,80 @@
+
+/* Form Tag */
+/*
+div.formtag[mouse="1"] > taghidden {display:block;}
+
+div.formtag[search="1"] > taghidden {display:block;}
+
+div.formtag > label {display:none;}
+
+taghidden {width:400px;border-radius:5px;padding:10px;display: none;left:10px;top:40px;z-index: 10;position: absolute;background-color:#444;}
+
+taghidden > input{padding:10px;padding: 10px 0;text-indent: 10px;width: 100%;}
+
+taghidden > icon{color:#fff;}
+
+taghidden .icon-cross{font-size: 80%;float: right;padding: 5px;background-color: #000;border-radius: 5px;margin-bottom: 10px;cursor: pointer;}
+
+taghidden > opt[selected="0"] {}
+taghidden > opt[selected="1"] {font-weight:bold;}
+
+taghidden > opt {cursor:pointer;font-size:80%;display:none;width: 100%;padding: 5px 0; color: #fff;text-indent:5px;}
+taghidden > opt:hover{background-color:#cd4f4f;color:#fff;}
+taghidden > opt[found="1"] {display:block;}
+taghidden > opt[found="0"] {display:none;}
+
+
+
+tagview > div {margin-left:10px;margin-top:10px;float:left;}
+tagview > div > figure {background-color: #eee;border-radius: 5px 0 0 5px;width: 29px;height: 29px;float: left;display:none;}
+tagview > div > label {padding:5px 15px;float:left;background-color:#cd4f4f;color:#fff;font-size:80%;border-radius:5px 0px 0px 5px;}
+tagview > div > icon {cursor:pointer;background-color: #824F4F;padding: 7px;float: left;color: #fff;font-size: 10px;width: 11px;height: 11px;border-radius:0 5px 5px 0;}
+
+
+tagview > add{cursor:pointer;background-color: #444;color: #fff;cursor: pointer;float: left;border-radius: 5px;margin-left: 10px;    margin-top: 10px;}
+tagview > add > icon {float:left;font-size: 10px;padding: 7px;}
+
+tagview > add > label {float:left;padding:5px 10px 5px 0;font-size:80%;cursor:pointer;}
+*/
+
+div.formtag[mouse="1"] > tagsearchbox {display:block;}
+
+div.formtag[search="1"] > tagsearchbox {display:block;}
+
+div.formtag[mouse="1"] > add {display:none;}
+div.formtag[search="1"] > add {display:none;}
+
+div.formtag add {background-color: #444;color: #fff;cursor: pointer;float: right;border-radius: 3px;margin: 10px 0 0 10px;}
+div.formtag add > icon {float:left;font-size: 10px;padding:15px;}
+div.formtag add > label {float:left;padding: 3px 5px;font-size:80%;cursor:pointer;display:none;}
+
+tagsearchbox {padding:10px;display: none;right:0;top:34px;z-index: 10;position: absolute;background-color:#fff;box-shadow: 0px 0px 4px 0px #444;}
+
+tagsearchbox > input{padding: 10px 0;text-indent: 10px;background-color:#eee;}
+
+tagsearchbox .icon-cross{font-size: 80%;float: right;padding: 5px;margin-bottom: 10px;cursor: pointer;color:#444;}
+
+taghidden{float: left;overflow: auto;margin-top:10px;}
+taghidden > opt[selected="0"] {}
+taghidden > opt[selected="1"] {font-weight:bold;}
+
+taghidden > opt {cursor:pointer;font-size:80%;display:none;width: 100%;padding: 5px 0; color: #444;}
+taghidden > opt:hover{background-color:#cd4f4f;color:#fff;}
+taghidden > opt[found="1"] {display:block;}
+taghidden > opt[found="0"] {display:none;}
+
+tagview {overflow:auto;height:60px;float:left; margin: 5px 0 0 10px;padding-right: 1px;}
+
+tagview > div {float:left;width:100%;background-color: #eee;margin-bottom:1px;font-size:90%;}
+tagview > div > figure {background-color: #eee;width: 29px;height: 29px;float: left;display:none;}
+tagview > div > label {padding:5px;float:left;color:#444;}
+tagview > div > label:nth-child(2){}
+
+tagview > div > valor{display:none;text-align:right;padding:2px 4px;float:right;color:#444;width:60px;-webkit-user-modify: read-write;-moz-user-modify:read-write;user-modify: read-write;background-color:#fff;margin:3px;box-shadow: inset 1px 1px 5px -3px #444;}
+
+tagview > div > icon {cursor:pointer;color: red;padding: 8px;float: right;font-size: 10px;}
+
+tagview > div:hover > icon{display:block;}
+
+
+tagview > div > input {width:50px;float:left;background-color:transparent;text-align:right;margin-top:5px;}

@@ -1,0 +1,10 @@
+suporte {position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #176B89;
+    padding: 8px;
+        box-shadow: 0px 0px 2px 0px #000;
+    border-radius: 5px;cursor:pointer;}
+suporte icon {color:#fff;background-color:#e15a2f;border-radius:20px;float: left;font-size: 150%;}
+suporte text {padding: 3px 0 0 3px; float: left;display:none;color:#fff;}
+suporte:hover text {display:block;}

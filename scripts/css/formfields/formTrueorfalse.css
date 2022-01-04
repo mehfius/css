@@ -1,0 +1,14 @@
+/* Form True or false  */
+
+
+form > div[type="trueorfalse"] > label {  cursor: pointer;float:left;margin:4px 0;line-height:1.5;}
+
+form > div[type="trueorfalse"][hide='0'] > input {  display: none}
+
+form > div[type="trueorfalse"][hide='1'] > input {  display: none}
+
+form > div[type="trueorfalse"] icon {  font-size: 125%;  color: #000;margin:15px 5px 15px 15px;float:left;cursor: pointer;}
+
+form > div[type="trueorfalse"][hide='1'] icon:before {  content: "\ea53"}
+
+form > div[type="trueorfalse"][hide='0'] icon:before {  content: "\ea52"}

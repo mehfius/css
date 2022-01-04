@@ -1,0 +1,16 @@
+
+icon > tooltip{position: absolute;
+    right: 5px;
+    top: 45px;
+    background-color: #000;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 60%;
+    display: none;color:#fff;white-space: nowrap;
+font-family: "Droid Sans", sans-serif;}
+
+body[mobile="0"] icon:hover tooltip{display:block;}
+
+tooltip > seta{background-color: #000000;width: 10px;height: 10px;transform: rotate(45deg);position: absolute;right: 10px;top: -3px;}
+
+

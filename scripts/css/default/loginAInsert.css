@@ -1,0 +1,22 @@
+login.insert .pinsert    {display:block;}
+login.insert #label      {display:block;}
+login.insert #email      {display:block;}
+login.insert #password   {display:block;}
+login.insert #password2   {display:block;}
+login.insert #cpf        {display:block;}
+login.insert #identidade {display:block;}
+
+login.insert #telefone   {display:block;}
+login.insert #cep        {display:block;}
+login.insert #endereco   {display:block;}
+login.insert #cidade     {display:block;}
+login.insert #estado     {display:block;}
+login.insert #bairro     {display:block;}
+
+login.insert .ptermos   {display:block;float: left;}
+
+login.insert #btLogin           {display: block;}
+login.insert #btInsertPaciente  {display:block;background-color:#444;color:#fff;}
+login.insert #btInsertMedico    {display:block;}
+login.insert #btRecovery        {display:block;}
+login.insert #btCadastrar        {display:block;}

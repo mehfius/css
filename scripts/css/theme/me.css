@@ -1,0 +1,5 @@
+
+item[me="1"] > footer > button {cursor:pointer;}
+item[me="0"]{cursor:auto;}
+item[me="1"] > footer > button:hover{box-shadow: 0 0 7px 0px #999;}
+item[me="0"] detalhes > figure{cursor:pointer;}

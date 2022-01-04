@@ -1,0 +1,58 @@
+body > header {
+  
+  top:-70px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  box-shadow: 0 1px 5px #888;
+  height: 60px;
+  position: fixed;
+  z-index: 200;
+  will-change: top;-webkit-transition: top 1s;-moz-transition: top 1s;will-change: top;
+  
+}
+
+body[logged="1"] > header{top:0;will-change: top;-webkit-transition: top 1s;-moz-transition: top 1s;will-change: top;}
+
+body > header > profile {
+  float: right;
+  margin: 10px 0 10px 10px;
+  padding-right: 10px;
+  border-right: 1px solid #0F89CA
+}
+
+body > header > icon {font-size: 16pt;padding: 19px;line-height: 1;color: #fff; }
+
+body > header > .icon-menu {float: left;background-color: transparent;cursor: pointer;-webkit-tap-highlight-color: transparent;}
+
+body > header > a > logo {float: left;padding: 12px}
+
+body > header > a > logo > span {
+  font-family: Droid Sans;
+  line-height: 2.4;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  text-transform: uppercase
+}
+
+body > header > mobileversion {
+ font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased; 
+  float: right;
+  border: none;
+  font-size: 16pt;
+  padding: 19px;
+  line-height: 1;
+  color: #fff;
+  transition: transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  background-color: transparent;
+  cursor: pointer
+}
+

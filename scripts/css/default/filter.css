@@ -1,0 +1,78 @@
+
+body[filter="1"] boxfilter{display:block;float:left;}
+boxfilter{display:none;}
+
+boxfilter > input {height: 60px;text-indent:55px;}
+
+boxfilter > input.hide {display: none}
+
+boxfilter > icon {
+  position:absolute;
+  left:20px;
+  top:0;
+  border: none;
+  font-size: 16pt;
+  line-height: 1;
+  color: #999;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+boxfilter > icon:before {
+  content: "\e986"
+}
+
+
+
+/* Filter SelectSearch*/
+boxfilter selectsearch {float:left;position:relative;margin-right:10px;margin-bottom:10px;}
+
+boxfilter selectsearch div {display: block;
+    padding: 5px 5px 0 5px;
+    z-index: 150;
+    float: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    background-color: #fff;
+    max-height: 200px;
+    border-radius: 5px;
+    margin-top: 5px;}
+boxfilter selectsearch opt {float:left;width:100%;cursor:pointer;display:none;height:48px;margin-bottom:5px;}
+boxfilter selectsearch opt:hover{background-color:#eee;}
+
+boxfilter selectsearch opt[selected="true"] label{font-weight:bold;}
+boxfilter selectsearch opt > codigo {float:left;padding:8px 0 0 10px;font-size:70%;width:270px;}
+boxfilter selectsearch.category opt > codigo {width:310px;}
+
+boxfilter selectsearch opt > label {float:left;padding:4px 0 0 10px;cursor:pointer;overflow-y: auto; overflow-x: hidden;white-space: nowrap;font-size: 80%;max-width: 240px;}
+boxfilter selectsearch opt > count {float:right;padding:4px 10px 0 0;font-size: 80%;}
+boxfilter selectsearch opt > figure {background-color: #444;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;}
+boxfilter selectsearch input {    text-indent: 30px;
+    width: 360px;
+    padding: 9px;
+    border-radius: 5px;}
+boxfilter selectsearch labelfigure {background-size: cover;
+    background-position: center;
+    background-color: #444;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 5px;}
+boxfilter selectsearch icon{background-color: #fff;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+    padding: 8px;}
+
+boxfilter selectsearch.category figure{display:none;}

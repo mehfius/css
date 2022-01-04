@@ -1,0 +1,55 @@
+selectbox {
+
+  max-width:960px;
+  height:90%;
+  display:block;
+  background-color:#444;
+  z-index:999;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+selectbox opt{
+
+  float:left;
+  width:100%;
+  font-size:150%;
+  color:#fff;
+  cursor:pointer;
+
+}
+
+selectbox opt:hover{
+  background-color:#cd4f4f;
+}
+
+selectbox list{
+
+  overflow: auto;
+  height:calc(100% - 70px);
+  float: left;
+  width: 100%;
+
+}
+
+selectbox fields {width:100%;float:left;}
+selectbox fields input {font-size:150%;width:100%;text-indent: 20px; padding:20px 0;}
+selectbox fields icon{position:absolute;right:24px;top:24px;font-size:150%;cursor:pointer;}
+
+selectbox id {float:left;margin:15px 10px 10px 0;width:70px;}
+selectbox label {float:left;margin:15px 0 0 0;cursor:unset;width: calc(100% - 165px);}
+
+selectbox figure{
+
+  background-size:cover;
+  float:left;
+  width:64px;
+  height:64px;
+  background-color:#fff;
+  border-radius:4px;
+  margin:10px 10px 0 10px;
+
+}

@@ -1,0 +1,81 @@
+
+body > section { max-width: 960px;margin:0 auto;width:95%;height:100%;}
+
+body view{margin-top:70px;float:left;width:100%;}
+body[logged="0"] view{opacity:0;transition: all 0.3s ease-in-out;}
+
+body view detalhes {float:left;overflow:auto hidden;white-space: nowrap;}
+
+
+item > options > button {font-size: 150%;border-radius: 5px;padding: 10px;float: right;margin:10px 10px 0 0;cursor:pointer;}
+
+item[view="0"] > options > button[action="view"] {display:block;}
+item[view="0"] > options > button[action="close"] {display:none;}
+
+item[view="1"] > options > button[action="view"] {display:none;}
+item[view="1"] > options > button[action="close"] {display:block;}
+
+
+item[category]{ border:1px solid #fff;border-radius:10px;border-radius: 5px;}
+
+item > header {float:left;font-size:120%;width:100%;}
+
+
+item > footer > button {float: right;}
+
+item {position:relative; float: left;  width: 100%;font-size: 80%;background-color:#fff;-webkit-tap-highlight-color: transparent;}
+
+
+item > p { float:left;line-height:1.5;font-size:120%;}
+
+item detalhes > figure{display:inline-block;position:relative;background-position: center center;background-size:cover;}
+
+item header data{margin:2.5%;float:right;}
+
+item > header > category {float:left;font-weight:bold;}
+
+item > header > pacientes {float:right;margin:10px;line-height:1.5;font-weight:bold;}
+item > header > pacientes icon {display:none;}
+
+item > header > pacientes label {cursor:pointer;} 
+
+item > header > icon.icon-share2 {float:left;padding:2.5% 0 2.5% 2.5%;}
+
+item > pacientes > div {float:left;}
+item > pacientes > div > icon{margin-right:10px;}
+
+
+
+
+item > footer > user {float:left;padding:2.5%;}
+item > footer > user > div {float:left;}
+item > footer > user > div > icon{margin-right:10px;}
+
+share div label::before {content: "\e971";font-family: 'icomoon';margin-right: 5px;color:#000;}
+
+item > footer > share {float:left;}
+item > footer > share > div {cursor:auto;float:left;margin:10px 0 10px 10px;background-color: #fff;padding: 4px 8px;border-radius: 2px;}
+item > footer > share > div > icon{margin-right:10px;}
+
+.addicon:before{
+  
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+body[suites="1"] > header{background-color:#176B89;}
+body[suites="1"] window{background-color:#176B89}
+body[suites="1"] > login{}
+body[suites="1"][notification="1"]  > header icon.icon-bell{background-color:#fff;color:#176B89;}
+body[suites="1"][shortcut="1"]      > header icon.icon-file-text2{background-color:#fff;color:#176B89;}
+body[suites="1"][calendar="1"]      > header icon.icon-calendar{background-color:#fff;color:#176B89;}
+body[suites="1"][filter="1"]        > header icon.icon-search{background-color:#fff;color:#176B89;}
+
+
+

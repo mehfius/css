@@ -1,0 +1,31 @@
+
+body > header > options > icon {
+  
+  font-size: 16pt;
+  padding: 10px;
+  line-height: 1;
+  color: #fff;
+  margin:10px 10px 0 0;
+  border-radius:5px;
+  cursor:pointer;
+  float:right;
+  position:relative;
+  
+}
+
+body > header > options > .icon-bell counternotification {
+  
+  padding:2px 3px;
+  border-radius:5px;
+  position:absolute;
+  top: 5px;right: 5px;
+  background-color:red;
+  color:#fff;
+  font-size:10pt;
+  font-family: Droid Sans;
+  display:none;
+  
+}
+
+
+body[modules=""] > header .icon-search{display:none;}

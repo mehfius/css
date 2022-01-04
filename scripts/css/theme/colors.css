@@ -1,0 +1,24 @@
+
+body[suites="2"] > header{background-color:#e47509;}
+body[suites="2"] window{background-color:#e47509;}
+body[suites="2"] > login{}
+
+body[suites="3"] > header{background-color:#bb153f;}
+body[suites="3"] window{background-color:#bb153f;}
+body[suites="3"] > login{}
+
+body[suites="4"] > header{background-color:#6cc781;}
+body[suites="4"] window{background-color:#6cc781;}
+body[suites="4"] > login{}
+
+body[suites="5"] > header{background-color:#f2a555;}
+body[suites="5"] window{background-color:#f2a555;}
+body[suites="5"] > login{}
+
+body[suites="6"] > header{background-color:#cd392e;}
+body[suites="6"] window{background-color:#cd392e;}
+body[suites="6"] > login{}
+
+body[suites="999"] > header{background-color:#0e7f18;}
+body[suites="999"] window{background-color:#0e7f18;}
+body[suites="999"] > login{background-color:#0e7f18;}

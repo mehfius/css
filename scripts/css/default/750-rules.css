@@ -1,0 +1,8 @@
+body div[admin="1"]{display:none;}
+
+body[areas="1"] div[admin="1"]{display:block;}
+
+body[modules="users"] button[action="delete"]{display:none;}
+body[areas="1"][modules="users"] button[action="delete"]{display:block;}
+
+body[suites='1'] window[modules="users"] #divorganizacoes {display:none;}

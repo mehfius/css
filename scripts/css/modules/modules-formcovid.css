@@ -1,0 +1,4 @@
+body[modules='formcovid'] tabela item {padding-bottom:0;}
+body[modules='formcovid'] tabela item codigo{display:none;}
+body[modules='formcovid'] tabela item :is(label){padding:10px 0 10px 10px;float:left;}
+body[modules='formcovid'] tabela item data{padding:10px;float:right;}

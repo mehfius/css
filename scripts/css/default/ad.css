@@ -1,0 +1,8 @@
+
+
+ad{display:none;z-index: 999;
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);}
+ad figure{float:left;width: 320px;height: 270px;background-color: #444;}
+body[ad="1"] ad{display:block;}
