@@ -13,3 +13,6 @@ body[mobile="1"] form div[gridmobile="1"] .default{width:460px;}
 body[mobile="1"] form div[gridmobile="1"] uploadedfiles{width:460px;} 
 
 body[mobile="1"] form textarea {height:100px;} 
+
+
+body[mobile="1"] window selectbox{height:80%;width:80%;}
