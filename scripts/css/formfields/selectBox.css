@@ -24,7 +24,7 @@ selectbox opt{
 }
 
 selectbox opt:hover{
-  background-color:#cd4f4f;
+  background-color:#000;
 }
 
 selectbox list{
@@ -52,7 +52,7 @@ selectbox figure{
   float:left;
   width:64px;
   height:64px;
-  background-color:#fff;
+  background-color:#999;
   border-radius:4px;
   margin:10px;
 
