@@ -1,14 +1,16 @@
 
  [theme="small"] item > header {}
 
- [theme="small"] item > header > data {display:none;}
+ [theme="small"] item > header > footer > data {display:block;}
  [theme="small"] item > header > icon.icon-share2 {display:none;}
 
  [theme="small"] item {padding-bottom: 0;min-height: 100px;}
- [theme="small"] item detalhes {overflow:auto hidden;white-space: nowrap;margin:10px;width:95%;}
+ [theme="small"] item detalhes {overflow:auto hidden;white-space: nowrap;margin:10px 10px 0 10px;width:calc(100% - 20px);}
 
- [theme="small"] item > p {overflow:hidden;margin: 10px;width:98%;height:45px;}
+ [theme="small"] item > p {overflow:hidden;margin: 10px;width:calc(100% - 20px);height:45px;}
  [theme="small"] item > p::-webkit-scrollbar {display: none;}
+
+
 
  [theme="small"] item detalhes > figure > label{display:none;}
 
@@ -23,15 +25,16 @@
  [theme="small"] item[view="0"] > header > category {}
  [theme="small"] item[view="1"] > header > category {}
 
- [theme="small"] item > data {font-weight: bold;float:left;width: 100%;}
- [theme="small"] item > data > updated{margin:10px 0 0 10px;float:left;padding: 4px 8px;border-radius: 2px;}
- [theme="small"] item > data > created{margin:10px 0 0 10px;float:left;padding: 4px 8px;border-radius: 2px;}
- [theme="small"] item[view="0"] > data {display:none;}
+ [theme="small"] item > footer > data {font-weight: bold;float:left;width: 100%;}
+ [theme="small"] item > footer > data > updated{margin:10px 0 10px 10px;float:left;padding: 4px 8px;border-radius: 2px;}
+ [theme="small"] item > footer > data > created{margin:10px 0 10px 10px;float:left;padding: 4px 8px;border-radius: 2px;}
+
+ [theme="small"] item[view="0"] > footer > data {display:block;}
 
 
- [theme="small"] item[view="0"] > footer > share {display:none;}
+ [theme="small"] item[view="0"] > share {display:none;}
 
- [theme="small"] item medicos {float:left;margin: 10px 10px 0 10px;border-radius: 2px;padding: 4px 8px;}
+ [theme="small"] item medicos {float:left;margin: 10px 0 0 10px;border-radius: 2px;padding: 4px 8px;}
  [theme="small"] item[view="0"] medicos {display:none;}
 
 /* [theme="small"] item > pacientes {float:left;margin: 10px 10px 0 10px;border-radius: 2px;padding: 4px 8px;}
@@ -40,6 +43,8 @@
 [theme="small"] item[view="0"] > pacientes {display:none;}
 [theme="small"] item > pacientes > div > * {float:left;margin: 10px 0 0 10px;border-radius: 2px;padding: 4px 8px;}
 
+[theme="small"] item > pacientes > div > .icon-whatsapp {cursor:pointer;font-size:118%;background-color:#68b868;color:#fff;}
+[theme="small"] item > pacientes > div > .icon-whatsapp:hover{box-shadow: 0 1px 5px #888;}
 
 /* [theme="small"] item > pacientes telefone {float:left;}
 [theme="small"] item > pacientes whatsapp {float:left;}

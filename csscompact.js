@@ -65,7 +65,7 @@ const categoryColors = async function (){
     style+='item[category="'+value.id+'"] detalhes figure {border-color:'+value.color+'40;}';
     style+='item[category="'+value.id+'"] header {background-color:'+value.color+'20;}';
     style+='item[category="'+value.id+'"] > medicos {background-color:'+value.color+'20;}';
-    style+='item[category="'+value.id+'"] footer share > div {background-color:'+value.color+'20;}';
+    style+='item[category="'+value.id+'"] > share > div {background-color:'+value.color+'20;}';
     style+='item[category="'+value.id+'"] data > updated {background-color:'+value.color+'20;}';
     style+='item[category="'+value.id+'"] > pacientes > div > * {background-color:'+value.color+'20;}';
 

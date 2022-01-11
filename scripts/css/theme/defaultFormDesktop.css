@@ -2,7 +2,7 @@
 body[mobile="0"] window form {padding:0 0 10px 0;min-height:300px;}
 
 body[mobile="0"] form div[grid="3"] {} 
-body[mobile="0"] form div[grid="3"] .default{width:220px;} 
+body[mobile="0"] form div[grid="3"] .default{width:260px;} 
 
 body[mobile="0"] form div[grid="2"] {}
 body[mobile="0"] form div[grid="2"] .default{width:395px;}

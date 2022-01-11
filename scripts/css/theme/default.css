@@ -8,6 +8,7 @@ body view detalhes {float:left;overflow:auto hidden;white-space: nowrap;}
 
 
 item > options > button {font-size: 150%;border-radius: 5px;padding: 10px;float: right;margin:10px 10px 0 0;cursor:pointer;}
+item > options > button:hover {box-shadow: 0 1px 5px #888;}
 
 item[view="0"] > options > button[action="view"] {display:block;}
 item[view="0"] > options > button[action="close"] {display:none;}
@@ -51,11 +52,11 @@ item > footer > user {float:left;padding:2.5%;}
 item > footer > user > div {float:left;}
 item > footer > user > div > icon{margin-right:10px;}
 
-share div label::before {content: "\e971";font-family: 'icomoon';margin-right: 5px;color:#000;}
+share div label::before {content: "\ea82";font-family: 'icomoon';margin-right: 5px;color:#000;font-size: 75%;}
 
-item > footer > share {float:left;}
-item > footer > share > div {cursor:auto;float:left;margin:10px 0 10px 10px;background-color: #fff;padding: 4px 8px;border-radius: 2px;}
-item > footer > share > div > icon{margin-right:10px;}
+item > share {float:left;}
+item > share > div {cursor:auto;float:left;margin:10px 0 0 10px;background-color: #fff;padding: 4px 8px;border-radius: 2px;}
+item > share > div > icon{margin-right:10px;}
 
 .addicon:before{
   
@@ -76,6 +77,3 @@ body[suites="1"][notification="1"]  > header icon.icon-bell{background-color:#ff
 body[suites="1"][shortcut="1"]      > header icon.icon-file-text2{background-color:#fff;color:#176B89;}
 body[suites="1"][calendar="1"]      > header icon.icon-calendar{background-color:#fff;color:#176B89;}
 body[suites="1"][filter="1"]        > header icon.icon-search{background-color:#fff;color:#176B89;}
-
-
-
