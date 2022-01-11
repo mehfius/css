@@ -33,6 +33,18 @@
 
  [theme="small"] item medicos {float:left;margin: 10px 10px 0 10px;border-radius: 2px;padding: 4px 8px;}
  [theme="small"] item[view="0"] medicos {display:none;}
+
+/* [theme="small"] item > pacientes {float:left;margin: 10px 10px 0 10px;border-radius: 2px;padding: 4px 8px;}
+ */
+
+[theme="small"] item[view="0"] > pacientes {display:none;}
+[theme="small"] item > pacientes > div > * {float:left;margin: 10px 0 0 10px;border-radius: 2px;padding: 4px 8px;}
+
+
+/* [theme="small"] item > pacientes telefone {float:left;}
+[theme="small"] item > pacientes whatsapp {float:left;}
+[theme="small"] item > pacientes nascimento {float:left;}
+[theme="small"] item > pacientes localidade {float:left;} */
 /*
  [theme="small"] item[view="0"] pacientes {display:none;}
  [theme="small"] item[view="1"] pacientes {display:block;}*/

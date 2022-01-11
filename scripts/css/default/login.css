@@ -2,6 +2,9 @@ body[logged="1"] login {}
 
 
 body[openlogin="1"][logged="0"] login {display:block;}
+
+body[openlogin="1"][logged="0"] login {display:block;}
+
 body[openlogin="1"][logged="0"] grade {display:block;}
 
 login {display:none;width:400px;z-index:550;background-color:#eee;right: 20px;border-radius:3px;
