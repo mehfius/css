@@ -1835,11 +1835,11 @@ body[modules='pacientes'] tabela > item[premium="1"] > options > div button[name
   --color2: #f36237;
 }
 
-body[suites="1"][areas="50"] > header{background-color:var(--color2);}
-body[suites="1"][areas="50"]  window{background-color:var(--color2);}
+body[suites="1"][areas="50"] > header{background-color:var(--color1);}
+body[suites="1"][areas="50"]  window{background-color:var(--color1);}
 
-body[suites="1"][areas="100"] > header{background-color:var(--color1);}
-body[suites="1"][areas="100"]  window{background-color:var(--color1);}
+body[suites="1"][areas="100"] > header{background-color:var(--color2);}
+body[suites="1"][areas="100"]  window{background-color:var(--color2);}
 
 body[suites="1"][notification="1"]  > header icon.icon-bell{background-color:#fff;color:#176B89;}
 body[suites="1"][shortcut="1"]      > header icon.icon-file-text2{background-color:#fff;color:#176B89;}
