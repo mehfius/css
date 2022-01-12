@@ -1511,9 +1511,9 @@ window form > div > [type="date"] {height:60px;}
 
 /*/home/runner/css/scripts/css/formfields/formFileupload.css*//* Fileupload */
 
-form div[type="fileupload"] label {}
 form div[type="fileupload"] button{float:left;}
 
+form div[type="fileupload"] label{display:none;}
 
 form .fileupload {  position: relative;  cursor: pointer;   float: left;margin-left:10px;}
 
