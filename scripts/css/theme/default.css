@@ -70,10 +70,3 @@ item > share > div > icon{margin-right:10px;}
     -webkit-font-smoothing: antialiased;
 }
 
-body[suites="1"] > header{background-color:#176B89;}
-body[suites="1"] window{background-color:#176B89}
-body[suites="1"] > login{}
-body[suites="1"][notification="1"]  > header icon.icon-bell{background-color:#fff;color:#176B89;}
-body[suites="1"][shortcut="1"]      > header icon.icon-file-text2{background-color:#fff;color:#176B89;}
-body[suites="1"][calendar="1"]      > header icon.icon-calendar{background-color:#fff;color:#176B89;}
-body[suites="1"][filter="1"]        > header icon.icon-search{background-color:#fff;color:#176B89;}

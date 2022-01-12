@@ -1,4 +1,4 @@
 /* Select */
 
-window form [type="date"] {height:59px;}
+window form > div > [type="date"] {height:60px;}
 

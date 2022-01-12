@@ -30,9 +30,6 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 }
 
 
-
-
-
 const cssAllFiles = function (){
 
   let text = ""
@@ -41,6 +38,8 @@ const cssAllFiles = function (){
   Object.entries(result).forEach(([key, value]) => {
 
     data = fs.readFileSync(value, 'utf8');
+    
+    text+="/*"+value+"*/";
 
     text+=data;
 

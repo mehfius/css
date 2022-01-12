@@ -35,3 +35,5 @@ form checkbox button[selected="1"]:before {  content: "\ea52"}
 form .default {  color: #444444;padding:20px;margin:5px 0 0 10px;background-color:#f6f6f6;}
 
 form textarea {  height: 200px;}
+
+form input[error="1"] {background-color:#ffe4e4;}
