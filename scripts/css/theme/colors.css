@@ -9,6 +9,10 @@ body[suites="1"][areas="50"]  window{background-color:var(--color1);}
 body[suites="1"][areas="100"] > header{background-color:var(--color2);}
 body[suites="1"][areas="100"]  window{background-color:var(--color2);}
 
+body[suites="1"][areas="50"] modal button{background-color:var(--color1);}
+body[suites="1"][areas="100"]  modal button{background-color:var(--color2);}
+  
+
 body[suites="1"][notification="1"]  > header icon.icon-bell{background-color:#fff;color:#176B89;}
 body[suites="1"][shortcut="1"]      > header icon.icon-file-text2{background-color:#fff;color:#176B89;}
 body[suites="1"][calendar="1"]      > header icon.icon-calendar{background-color:#fff;color:#176B89;}

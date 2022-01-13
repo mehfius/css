@@ -1226,16 +1226,26 @@ login.recovery #btLogin   {display:block;}
 login.recovery #btInsert   {display:block;}
 login.recovery #btRecuperar{display:block;}
 
-/*/home/runner/css/scripts/css/default/modal.css*/modal{display:none;background-color: #fff;width: 200px;position: absolute;right: 10px;top: 70px;border-radius: 2px;font-size: 80%;
-box-shadow: 0px 0px 2px 0px #000;}
+/*/home/runner/css/scripts/css/default/modal.css*/
+modal {display:none;position: absolute;right: 10px;top: 70px;width: 250px;}
 
-modal header{float:left;width:100%;display:none;}
+modal div{background-color: #fff;width: 100%;border-radius: 2px;font-size: 80%;
+box-shadow: 0px 0px 2px -1px #000;float:left;margin-bottom:10px;}
+
+modal header {float:left;width:100%;display:none;}
 modal header label{color:#fff;padding:10px;float:left;}
-modal content{float:left;width:100%;}
-modal content p{float:left;padding:10px;line-height:1.5;}
-modal content button {cursor:pointer;margin: 0 auto;display: block;padding: 10px;margin-bottom: 10px;}
+modal content {float:left;width:100%;}
+modal content p{float:left;padding:20px;line-height:1.5;}
+modal content button {cursor:pointer;margin: 20px auto;display: block;border-radius: 10px;color: #fff;padding: 10px 20px;}
 
 modal content:nth-child(2n+1){border-top: 1px solid #000;}
+
+modal ul{
+  margin:10px 0 10px 30px;
+  list-style: disc;
+}
+
+modal ul li{color:red;}
 
 /*/home/runner/css/scripts/css/default/pacientes-aquivo-tooltipmenu.css*/item pacientes tooltipmenu{
 
@@ -1830,6 +1840,8 @@ body[modules='pacientes'] tabela > item[deleted="1"] > options > div button[name
 body[modules='pacientes'] tabela > item[premium="0"] > options > div button[name="premium"][value="0"]{display:none;}
 body[modules='pacientes'] tabela > item[premium="1"] > options > div button[name="premium"][value="1"]{display:none;}
 
+/*/home/runner/css/scripts/css/modules/modules-users.css*/body[modules][areas="100"] #divcrm {display:none;}
+
 /*/home/runner/css/scripts/css/theme/colors.css*/body{
   --color1: #1c6c8c;
   --color2: #f36237;
@@ -1840,6 +1852,10 @@ body[suites="1"][areas="50"]  window{background-color:var(--color1);}
 
 body[suites="1"][areas="100"] > header{background-color:var(--color2);}
 body[suites="1"][areas="100"]  window{background-color:var(--color2);}
+
+body[suites="1"][areas="50"] modal button{background-color:var(--color1);}
+body[suites="1"][areas="100"]  modal button{background-color:var(--color2);}
+  
 
 body[suites="1"][notification="1"]  > header icon.icon-bell{background-color:#fff;color:#176B89;}
 body[suites="1"][shortcut="1"]      > header icon.icon-file-text2{background-color:#fff;color:#176B89;}
