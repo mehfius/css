@@ -1415,7 +1415,7 @@ window form > div > [type="date"] {height:60px;}
 
 form div[type="fileupload"] button{float:left;}
 
-form div[type="fileupload"] label{display:none;}
+form div[type="fileupload"] > label{display:none;}
 
 form .fileupload {  position: relative;  cursor: pointer;   float: left;margin-left:10px;}
 
@@ -1430,8 +1430,17 @@ form uploadedFiles > div > figure {cursor:pointer;width:100%;height:100%;backgro
 form uploadedFiles > div > options { display: none;  position: absolute;bottom:0;right:0;width:100%;background-color:#444;}
 form uploadedFiles > div:hover > options { display: block; }
 
-form uploadedFiles > div > label {top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;position:absolute;}
+form uploadedFiles > div > label {top: calc(50% + 20px);transform: translateX(-50%) translateY(-50%);left: 50%;position:absolute;}
 form uploadedFiles > div > options > span {color: #fff; padding:7px; font-size: 11pt; cursor: pointer;   display: block; float:left; }
+
+form uploadedFiles div icon {-webkit-animation: spin 1.5s infinite linear;
+    top: calc(50% - 26px);
+    transform: translateX(-50%) translateY(-50%);
+    left: calc(50% - 16px);
+    position: absolute;
+
+    display: block;
+    font-size: 200%;}
 
 
 
