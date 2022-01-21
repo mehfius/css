@@ -2,7 +2,7 @@ body window{position:fixed;z-index:550;top: 50%;transform: translateX(-50%) tran
 body window form {float:left;background-color:#fff;width:100%;box-shadow: inset -1px 5px 8px -7px #000}
 
 window form menu{position:absolute;right:0;bottom:0;z-index:500;}
-window form > div > label {padding:10px 0 0 10px;color:#444;}
+
 
 form input.error,
 form select.error {background-color: #F2CBCB}
@@ -11,17 +11,8 @@ form p.sucess {color: #55C73D}
 
 form div.status {  text-align: center;  font-size: 90%}
 
-form > div {  float: left;position:relative;margin-bottom:20px;}
-
-form > div > label {  display: block;-webkit-tap-highlight-color: transparent;}
-form > div.error > label > counter {  color: red}
-
-form suggestsplaces option {  cursor: pointer;  padding: 2%;  background-color: #eee;  width: 98%;  overflow: auto}
-
-form suggestsplaces option:hover {  background-color: #ccc}
 
 
-form > div.checkbox {  width: auto}
 
 /* Form Grid */
 
@@ -31,8 +22,6 @@ form checkbox {  float: left}
 form checkbox button {  border: 0; background-color: transparent;  padding: 5px}
 form checkbox button[selected="0"]:before {  content: "\ea53"}
 form checkbox button[selected="1"]:before {  content: "\ea52"}
-
-form .default {  color: #444444;padding:20px;margin:5px 0 0 10px;background-color:#f6f6f6;}
 
 form textarea {  height: 200px;}
 

@@ -805,7 +805,7 @@ filterstandard icon{float:left;padding:20px;}
 body window form {float:left;background-color:#fff;width:100%;box-shadow: inset -1px 5px 8px -7px #000}
 
 window form menu{position:absolute;right:0;bottom:0;z-index:500;}
-window form > div > label {padding:10px 0 0 10px;color:#444;}
+
 
 form input.error,
 form select.error {background-color: #F2CBCB}
@@ -814,17 +814,8 @@ form p.sucess {color: #55C73D}
 
 form div.status {  text-align: center;  font-size: 90%}
 
-form > div {  float: left;position:relative;margin-bottom:20px;}
-
-form > div > label {  display: block;-webkit-tap-highlight-color: transparent;}
-form > div.error > label > counter {  color: red}
-
-form suggestsplaces option {  cursor: pointer;  padding: 2%;  background-color: #eee;  width: 98%;  overflow: auto}
-
-form suggestsplaces option:hover {  background-color: #ccc}
 
 
-form > div.checkbox {  width: auto}
 
 /* Form Grid */
 
@@ -834,8 +825,6 @@ form checkbox {  float: left}
 form checkbox button {  border: 0; background-color: transparent;  padding: 5px}
 form checkbox button[selected="0"]:before {  content: "\ea53"}
 form checkbox button[selected="1"]:before {  content: "\ea52"}
-
-form .default {  color: #444444;padding:20px;margin:5px 0 0 10px;background-color:#f6f6f6;}
 
 form textarea {  height: 200px;}
 
@@ -1976,15 +1965,23 @@ body[mobile="0"] filter > input {width:860px;}
 /*/home/runner/css/scripts/css/theme/defaultFormDesktop.css*/
 body[mobile="0"] window form {padding:0 0 10px 0;min-height:300px;}
 
-body[mobile="0"] form div[grid="3"] {} 
-body[mobile="0"] form div[grid="3"] .default{width:260px;} 
 
-body[mobile="0"] form div[grid="2"] {}
-body[mobile="0"] form div[grid="2"] .default{width:395px;}
+body[mobile="0"] form > div input,textarea {color: #444444;padding:20px;background-color:#f6f6f6;width:100%;}
 
-body[mobile="0"] form div[grid="1"] {width:100%;} 
-body[mobile="0"] form div[grid="1"] .default{width:800px;} 
-body[mobile="0"] form div[grid="1"] uploadedfiles{width:800px;height:150px;} 
+body[mobile="0"] form > div {float: left;position:relative;margin-top:20px;margin-left:20px;}
+
+body[mobile="0"] form > div > label {display: block;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
+
+
+body[mobile="0"] form div[grid="3"] {width:calc(33% - 24px);} 
+body[mobile="0"] form div[grid="3"] input{} 
+
+body[mobile="0"] form div[grid="2"] {width:calc(50% - 30px);}
+body[mobile="0"] form div[grid="2"] input{}
+
+body[mobile="0"] form div[grid="1"] {width: calc(100% - 40px);} 
+body[mobile="0"] form div[grid="1"] input{} 
+body[mobile="0"] form div[grid="1"] uploadedfiles{width: 100%;height:150px;} 
 
 
 body[mobile="0"] form div[grid="1"] multipleview {width:800px;float:left;}
@@ -2110,12 +2107,6 @@ item[me="0"] detalhes > figure{cursor:pointer;}
 [theme="small"] item > pacientes > div > .icon-whatsapp {cursor:pointer;font-size:118%;background-color:#68b868;color:#fff;}
 [theme="small"] item > pacientes > div > .icon-whatsapp:hover{box-shadow: 0 1px 5px #888;}
 
-/* [theme="small"] item > pacientes telefone {float:left;}
-[theme="small"] item > pacientes whatsapp {float:left;}
-[theme="small"] item > pacientes nascimento {float:left;}
-[theme="small"] item > pacientes localidade {float:left;} */
-/*
- [theme="small"] item[view="0"] pacientes {display:none;}
- [theme="small"] item[view="1"] pacientes {display:block;}*/
+
  [theme="small"] item[view="1"] p {white-space: pre-wrap;height:auto;}
 
