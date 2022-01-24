@@ -1,4 +1,6 @@
-body[mobile="1"] window form{width:100%;height:100%;overflow:auto;}
+body[mobile="1"] window form{width:100%;height:calc(100% - 60px);overflow:auto;}
+
+/* 
 body[mobile="1"] window form uploadedFiles > div {position:relative;width:280px;height:280px;}
 body[mobile="1"] window form uploadedFiles > div > options > span {padding:20px;}
 
@@ -11,8 +13,11 @@ body[mobile="1"] form div[gridmobile="2"] .default{width:460px;}
 body[mobile="1"] form div[gridmobile="1"] {} 
 body[mobile="1"] form div[gridmobile="1"] .default{width:460px;} 
 body[mobile="1"] form div[gridmobile="1"] uploadedfiles{width:460px;} 
+ */
+
+body[mobile="1"] form div[gridmobile="3"] {width:calc(33% - 24px);} 
+body[mobile="1"] form div[gridmobile="2"] {width:calc(50% - 30px);}
+body[mobile="1"] form div[gridmobile="1"] {width:calc(100% - 40px);} 
 
 body[mobile="1"] form textarea {height:100px;} 
-
-
 body[mobile="1"] window selectbox{height:80%;width:80%;}
