@@ -7,6 +7,7 @@ login.insert #cpf        {display:block;}
 login.insert #identidade {display:block;}
 
 login.insert #telefone   {display:block;}
+login.insert #whatsapp   {display:block;}
 login.insert #cep        {display:block;}
 login.insert #endereco   {display:block;}
 login.insert #cidade     {display:block;}

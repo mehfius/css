@@ -7,6 +7,7 @@ login.insertpaciente #cpf        {display:block;}
 
 login.insertpaciente #identidade {display:block;}
 login.insertpaciente #telefone   {display:block;}
+login.insertpaciente #whatsapp   {display:block;}
 login.insertpaciente #cep        {display:block;}
 login.insertpaciente #endereco   {display:block;}
 login.insertpaciente #cidade     {display:block;}

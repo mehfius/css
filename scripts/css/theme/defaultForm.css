@@ -1,6 +1,6 @@
 
 body[mobile] form > div input,textarea {color: #444444;padding:20px;background-color:#f6f6f6;width:100%;}
-body[mobile] form > div {float: left;position:relative;margin-top:20px;margin-left:20px;}
+body[mobile] form > div {float: left;position:relative;margin-top:20px;}
 body[mobile] form > div > label {display: block;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
 
 

@@ -8,6 +8,7 @@ login.insertmedico #cpf        {display:block;}
 login.insertmedico #crm        {display:block;}
 login.insertmedico #identidade {display:block;}
 login.insertmedico #telefone   {display:block;}
+login.insertmedico #whatsapp   {display:block;}
 login.insertmedico #cep        {display:block;}
 login.insertmedico #endereco   {display:block;}
 login.insertmedico #cidade     {display:block;}

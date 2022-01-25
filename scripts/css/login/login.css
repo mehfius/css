@@ -33,6 +33,7 @@ login #password2       {display:none}
 login #cpf            {display:none;width:49%;}
 login #crm            {display:none}
 login #userstipos     {display:none}
+login #whatsapp       {display:none}
 
 login #identidade     {display:none;float:right;width:49%;}
 login #telefone       {display:none}

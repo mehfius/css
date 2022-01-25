@@ -859,226 +859,6 @@ loading icon {
 }
 
 
-/*/home/runner/css/scripts/css/default/login.css*/body[logged="1"] login {}
-
-
-body[openlogin="1"][logged="0"] login {display:block;}
-
-body[openlogin="1"][logged="0"] login {display:block;}
-
-body[openlogin="1"][logged="0"] grade {display:block;}
-
-login {display:none;width:400px;z-index:550;background-color:#eee;right: 20px;border-radius:3px;
-
-
-position: fixed;
-
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    left: 50%;
-
-
-}
-
-login h1{display:none;text-align:center;font-size:500%;background-size: cover;background-repeat: no-repeat;color: transparent;}
-login p {text-align:center;padding:20px;}
-login a {text-decoration:underline;}
-
-
-login form input {font-size:120%;border-radius:3px;text-indent:15px;border: 0;float: left;height: 40px;padding: 0;outline: none;margin-bottom: 10px;width: 100%;}
-
-login #label          {display:none}
-login #email          {display:none}
-login #password       {display:none}
-login #password2       {display:none}
-login #cpf            {display:none;width:49%;}
-login #crm            {display:none}
-login #userstipos     {display:none}
-
-login #identidade     {display:none;float:right;width:49%;}
-login #telefone       {display:none}
-login #cep            {display:none}
-login #endereco       {display:none}
-
-login #cidade         {display:none}
-login #estado         {display:none}
-login #bairro         {display:none}
-
-login #btRecuperar    {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
-login #btCadastrar    {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
-login #btEntrar       {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
-login #status         {width:100%;margin-top:10px;width: 100%;height: 20px;text-align: center;}
-
-login #btRecovery     {display:none;float:right;text-decoration:underline;padding:5px;}
-login #btInsert       {display:none;float:right;text-decoration:underline;padding:5px;}
-login #btInsertPaciente {display:none;padding:5px;width:49%;float:left;background-color:#fff;margin-bottom:10px;}
-login #btInsertMedico {display:none;padding:5px;width:49%;float:right;background-color:#fff;margin-bottom:10px;font-size:90%;line-height:90%;}
-login #btLogin        {display:none;float:left;text-decoration:underline;padding:5px;}
-
-
-
-login p               {display: none;}
-
-
-
-login form icon {width: 18px;height: 40px;float: left;line-height: 2.6;text-align: center;color: #fff;background-color: transparent;margin: 0;margin-bottom: 10px}
-
-
-
-
-
-login button:focus {box-shadow: none;  outline: none}
-
-login form button.loading {background-color: transparent}
-
-login form button.error {background-color: transparent}
-
-login form button.sucess {background-color: transparent}
-
-login button {border-radius:3px;height:40px;cursor: pointer;float: right;border: 0;box-shadow: none;background-color: transparent;outline: none;text-decoration:none;font-size:120%;}
-
-login form {float:left;padding: 30px;width:340px;}
-
-login options{position:absolute;left:0;bottom:0;margin:30px 30px 30px 30px;}
-
-login options button{padding:5px;font-size:80%;margin-right:5px;float:left;background-color:#fff;text-transform: none;}
-
-login btclose {position: absolute;right: 0;top: 0;padding: 5px;line-height: 0.6;border-radius: 3px;margin: 10px;background-color: #444;float: left;color: #fff;cursor:pointer;}
-
-login form input:-webkit-autofill,
-login form input:-webkit-autofill:hover, 
-login form input:-webkit-autofill:focus,
-login form textarea:-webkit-autofill,
-login form textarea:-webkit-autofill:hover,
-login form textarea:-webkit-autofill:focus,
-login form select:-webkit-autofill,
-login form select:-webkit-autofill:hover,
-login form select:-webkit-autofill:focus {
-
-  -webkit-background-color: #efefef !important;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
-
-}
-
-/*/home/runner/css/scripts/css/default/loginA.css*/login.login .plogin     {display:block;}
-login.login #email      {display:block;}
-login.login #password   {display:block;}
-
-login.login #btEntrar   {display:block;}
-
-login.login #btInsert   {display:block;}
-login.login #btRecovery {display:block;}
-
-
-/*/home/runner/css/scripts/css/default/loginAInsert.css*/login.insert .pinsert    {display:block;}
-login.insert #label      {display:block;}
-login.insert #email      {display:block;}
-login.insert #password   {display:block;}
-login.insert #password2   {display:block;}
-login.insert #cpf        {display:block;}
-login.insert #identidade {display:block;}
-
-login.insert #telefone   {display:block;}
-login.insert #cep        {display:block;}
-login.insert #endereco   {display:block;}
-login.insert #cidade     {display:block;}
-login.insert #estado     {display:block;}
-login.insert #bairro     {display:block;}
-
-login.insert .ptermos   {display:block;float: left;}
-
-login.insert #btLogin           {display: block;}
-login.insert #btInsertPaciente  {display:block;background-color:#444;color:#fff;}
-login.insert #btInsertMedico    {display:block;}
-login.insert #btRecovery        {display:block;}
-login.insert #btCadastrar        {display:block;}
-
-/*/home/runner/css/scripts/css/default/loginAInsertMedico.css*/login.insertmedico .pinsert    {display:block;}
-login.insertmedico #label      {display:block;}
-login.insertmedico #email      {display:block;}
-login.insertmedico #password   {display:block;}
-login.insertmedico #password2   {display:block;}
-login.insertmedico #cpf        {display:block;}
-
-login.insertmedico #crm        {display:block;}
-login.insertmedico #identidade {display:block;}
-login.insertmedico #telefone   {display:block;}
-login.insertmedico #cep        {display:block;}
-login.insertmedico #endereco   {display:block;}
-login.insertmedico #cidade     {display:block;}
-login.insertmedico #estado     {display:block;}
-login.insertmedico #bairro     {display:block;}
-
-
-login.insertmedico .ptermos   {display:block;float: left;}
-
-login.insertmedico #btInsertPaciente {display: block;}
-login.insertmedico #btInsertMedico {display: block;background-color:#444;color:#fff;}
-
-login.insertmedico #btLogin   {display:block;}
-login.insertmedico #btRecovery {display:block;}
-login.insertmedico #btCadastrar {display:block;}
-
-/*/home/runner/css/scripts/css/default/loginAInsertPaciente.css*/login.insertpaciente .pinsert    {display:block;}
-login.insertpaciente #label       {display:block;}
-login.insertpaciente #email      {display:block;}
-login.insertpaciente #password   {display:block;}
-login.insertpaciente #password2   {display:block;}
-login.insertpaciente #cpf        {display:block;}
-
-login.insertpaciente #identidade {display:block;}
-login.insertpaciente #telefone   {display:block;}
-login.insertpaciente #cep        {display:block;}
-login.insertpaciente #endereco   {display:block;}
-login.insertpaciente #cidade     {display:block;}
-login.insertpaciente #estado     {display:block;}
-login.insertpaciente #bairro     {display:block;}
-
-login.insertpaciente .ptermos   {display:block;float: left;}
-
-login.insertpaciente #btInsertPaciente {display: block;background-color:#444;color:#fff;}
-login.insertpaciente #btInsertMedico {display: block;}
-
-login.insertpaciente #btLogin    {display:block;}
-login.insertpaciente #btRecovery {display:block;}
-login.insertpaciente #btCadastrar {display:block;}
-
-/*/home/runner/css/scripts/css/default/loginAInsertPassos.css*//* login[passo="1"] #label      {display:block;}
-login[passo="1"] #email      {display:block;}
-login[passo="1"] #password   {display:block;}
-login[passo="1"] #cpf        {display:block;} */
-
-login[passo="1"] #crm        {display:none;}
-login[passo="1"] #identidade {display:none;}
-login[passo="1"] #telefone   {display:none;}
-login[passo="1"] #cep        {display:none;}
-login[passo="1"] #endereco   {display:none;}
-login[passo="1"] #cidade     {display:none;}
-login[passo="1"] #estado     {display:none;}
-login[passo="1"] #bairro     {display:none;}
-
-login[passo="2"] #label      {display:none;}
-login[passo="2"] #email      {display:none;}
-login[passo="2"] #password   {display:none;}
-
-login[passo="2"] #cpf        {display:none;}
-
-/* login[passo="2"] #crm        {display:none;}
-login[passo="2"] #identidade {display:none;}
-login[passo="2"] #telefone   {display:none;}
-login[passo="2"] #cep        {display:none;}
-login[passo="2"] #endereco   {display:none;}
-login[passo="2"] #cidade     {display:none;}
-login[passo="2"] #estado     {display:none;}
-login[passo="2"] #bairro     {display:none;} */
-
-/*/home/runner/css/scripts/css/default/loginRecovery.css*/login.recovery .precovery  {display:block;}
-login.recovery #email   {display:block;}
-
-login.recovery #btLogin   {display:block;}
-login.recovery #btInsert   {display:block;}
-login.recovery #btRecuperar{display:block;}
-
 /*/home/runner/css/scripts/css/default/modal.css*/
 modal {display:none;position: absolute;right: 10px;top: 70px;width: 250px;}
 
@@ -1738,6 +1518,231 @@ body > header > options > .icon-bell counternotification {
 
 
 body[modules=""] > header .icon-search{display:none;}
+
+/*/home/runner/css/scripts/css/login/login.css*/body[logged="1"] login {}
+
+
+body[openlogin="1"][logged="0"] login {display:block;}
+
+body[openlogin="1"][logged="0"] login {display:block;}
+
+body[openlogin="1"][logged="0"] grade {display:block;}
+
+login {display:none;width:400px;z-index:550;background-color:#eee;right: 20px;border-radius:3px;
+
+
+position: fixed;
+
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+
+
+}
+
+login h1{display:none;text-align:center;font-size:500%;background-size: cover;background-repeat: no-repeat;color: transparent;}
+login p {text-align:center;padding:20px;}
+login a {text-decoration:underline;}
+
+
+login form input {font-size:120%;border-radius:3px;text-indent:15px;border: 0;float: left;height: 40px;padding: 0;outline: none;margin-bottom: 10px;width: 100%;}
+
+login #label          {display:none}
+login #email          {display:none}
+login #password       {display:none}
+login #password2       {display:none}
+login #cpf            {display:none;width:49%;}
+login #crm            {display:none}
+login #userstipos     {display:none}
+login #whatsapp       {display:none}
+
+login #identidade     {display:none;float:right;width:49%;}
+login #telefone       {display:none}
+login #cep            {display:none}
+login #endereco       {display:none}
+
+login #cidade         {display:none}
+login #estado         {display:none}
+login #bairro         {display:none}
+
+login #btRecuperar    {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
+login #btCadastrar    {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
+login #btEntrar       {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
+login #status         {width:100%;margin-top:10px;width: 100%;height: 20px;text-align: center;}
+
+login #btRecovery     {display:none;float:right;text-decoration:underline;padding:5px;}
+login #btInsert       {display:none;float:right;text-decoration:underline;padding:5px;}
+login #btInsertPaciente {display:none;padding:5px;width:49%;float:left;background-color:#fff;margin-bottom:10px;}
+login #btInsertMedico {display:none;padding:5px;width:49%;float:right;background-color:#fff;margin-bottom:10px;font-size:90%;line-height:90%;}
+login #btLogin        {display:none;float:left;text-decoration:underline;padding:5px;}
+
+
+
+login p               {display: none;}
+
+
+
+login form icon {width: 18px;height: 40px;float: left;line-height: 2.6;text-align: center;color: #fff;background-color: transparent;margin: 0;margin-bottom: 10px}
+
+
+
+
+
+login button:focus {box-shadow: none;  outline: none}
+
+login form button.loading {background-color: transparent}
+
+login form button.error {background-color: transparent}
+
+login form button.sucess {background-color: transparent}
+
+login button {border-radius:3px;height:40px;cursor: pointer;float: right;border: 0;box-shadow: none;background-color: transparent;outline: none;text-decoration:none;font-size:120%;}
+
+login form {float:left;padding: 30px;width:340px;}
+
+login options{position:absolute;left:0;bottom:0;margin:30px 30px 30px 30px;}
+
+login options button{padding:5px;font-size:80%;margin-right:5px;float:left;background-color:#fff;text-transform: none;}
+
+login btclose {position: absolute;right: 0;top: 0;padding: 5px;line-height: 0.6;border-radius: 3px;margin: 10px;background-color: #444;float: left;color: #fff;cursor:pointer;}
+
+login form input:-webkit-autofill,
+login form input:-webkit-autofill:hover, 
+login form input:-webkit-autofill:focus,
+login form textarea:-webkit-autofill,
+login form textarea:-webkit-autofill:hover,
+login form textarea:-webkit-autofill:focus,
+login form select:-webkit-autofill,
+login form select:-webkit-autofill:hover,
+login form select:-webkit-autofill:focus {
+
+  -webkit-background-color: #efefef !important;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+
+}
+
+/*/home/runner/css/scripts/css/login/loginA.css*/login.login .plogin     {display:block;}
+login.login #email      {display:block;}
+login.login #password   {display:block;}
+
+
+login.login #btEntrar   {display:block;}
+
+login.login #btInsert   {display:block;}
+login.login #btRecovery {display:block;}
+
+
+/*/home/runner/css/scripts/css/login/loginAInsert.css*/login.insert .pinsert    {display:block;}
+login.insert #label      {display:block;}
+login.insert #email      {display:block;}
+login.insert #password   {display:block;}
+login.insert #password2   {display:block;}
+login.insert #cpf        {display:block;}
+login.insert #identidade {display:block;}
+
+login.insert #telefone   {display:block;}
+login.insert #whatsapp   {display:block;}
+login.insert #cep        {display:block;}
+login.insert #endereco   {display:block;}
+login.insert #cidade     {display:block;}
+login.insert #estado     {display:block;}
+login.insert #bairro     {display:block;}
+
+login.insert .ptermos   {display:block;float: left;}
+
+login.insert #btLogin           {display: block;}
+login.insert #btInsertPaciente  {display:block;background-color:#444;color:#fff;}
+login.insert #btInsertMedico    {display:block;}
+login.insert #btRecovery        {display:block;}
+login.insert #btCadastrar        {display:block;}
+
+/*/home/runner/css/scripts/css/login/loginAInsertMedico.css*/login.insertmedico .pinsert    {display:block;}
+login.insertmedico #label      {display:block;}
+login.insertmedico #email      {display:block;}
+login.insertmedico #password   {display:block;}
+login.insertmedico #password2   {display:block;}
+login.insertmedico #cpf        {display:block;}
+
+login.insertmedico #crm        {display:block;}
+login.insertmedico #identidade {display:block;}
+login.insertmedico #telefone   {display:block;}
+login.insertmedico #whatsapp   {display:block;}
+login.insertmedico #cep        {display:block;}
+login.insertmedico #endereco   {display:block;}
+login.insertmedico #cidade     {display:block;}
+login.insertmedico #estado     {display:block;}
+login.insertmedico #bairro     {display:block;}
+
+
+login.insertmedico .ptermos   {display:block;float: left;}
+
+login.insertmedico #btInsertPaciente {display: block;}
+login.insertmedico #btInsertMedico {display: block;background-color:#444;color:#fff;}
+
+login.insertmedico #btLogin   {display:block;}
+login.insertmedico #btRecovery {display:block;}
+login.insertmedico #btCadastrar {display:block;}
+
+/*/home/runner/css/scripts/css/login/loginAInsertPaciente.css*/login.insertpaciente .pinsert    {display:block;}
+login.insertpaciente #label       {display:block;}
+login.insertpaciente #email      {display:block;}
+login.insertpaciente #password   {display:block;}
+login.insertpaciente #password2   {display:block;}
+login.insertpaciente #cpf        {display:block;}
+
+login.insertpaciente #identidade {display:block;}
+login.insertpaciente #telefone   {display:block;}
+login.insertpaciente #whatsapp   {display:block;}
+login.insertpaciente #cep        {display:block;}
+login.insertpaciente #endereco   {display:block;}
+login.insertpaciente #cidade     {display:block;}
+login.insertpaciente #estado     {display:block;}
+login.insertpaciente #bairro     {display:block;}
+
+login.insertpaciente .ptermos   {display:block;float: left;}
+
+login.insertpaciente #btInsertPaciente {display: block;background-color:#444;color:#fff;}
+login.insertpaciente #btInsertMedico {display: block;}
+
+login.insertpaciente #btLogin    {display:block;}
+login.insertpaciente #btRecovery {display:block;}
+login.insertpaciente #btCadastrar {display:block;}
+
+/*/home/runner/css/scripts/css/login/loginAInsertPassos.css*//* login[passo="1"] #label      {display:block;}
+login[passo="1"] #email      {display:block;}
+login[passo="1"] #password   {display:block;}
+login[passo="1"] #cpf        {display:block;} */
+
+login[passo="1"] #crm        {display:none;}
+login[passo="1"] #identidade {display:none;}
+login[passo="1"] #telefone   {display:none;}
+login[passo="1"] #cep        {display:none;}
+login[passo="1"] #endereco   {display:none;}
+login[passo="1"] #cidade     {display:none;}
+login[passo="1"] #estado     {display:none;}
+login[passo="1"] #bairro     {display:none;}
+
+login[passo="2"] #label      {display:none;}
+login[passo="2"] #email      {display:none;}
+login[passo="2"] #password   {display:none;}
+
+login[passo="2"] #cpf        {display:none;}
+
+/* login[passo="2"] #crm        {display:none;}
+login[passo="2"] #identidade {display:none;}
+login[passo="2"] #telefone   {display:none;}
+login[passo="2"] #cep        {display:none;}
+login[passo="2"] #endereco   {display:none;}
+login[passo="2"] #cidade     {display:none;}
+login[passo="2"] #estado     {display:none;}
+login[passo="2"] #bairro     {display:none;} */
+
+/*/home/runner/css/scripts/css/login/loginRecovery.css*/login.recovery .precovery  {display:block;}
+login.recovery #email   {display:block;}
+
+login.recovery #btLogin   {display:block;}
+login.recovery #btInsert   {display:block;}
+login.recovery #btRecuperar{display:block;}
 
 /*/home/runner/css/scripts/css/modules/modules-category.css*//*
 body[modules='category'] form select3 figure{display:none;}
