@@ -1162,7 +1162,7 @@ form .fileupload {  position: relative;  cursor: pointer;   float: left;margin-l
 
 form .fileupload input[type=file] {  position: absolute;  top: 0;  right: 0;  margin: 0;  padding: 0;  font-size: 100%;  cursor: pointer;  opacity: 0;  width: 100%;height: 100%;}
 
-form uploadedFiles {  float: left;overflow: auto;white-space: nowrap;margin:10px 10px 0 10px;}
+form uploadedFiles {  float: left;overflow: auto;white-space: nowrap;margin-bottom: 20px;}
 form uploadedFiles > .pdf h3{color: rgb(255, 255, 255);top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;position: absolute;}
 form uploadedFiles > .pdf {background-color:#000;}
 
@@ -1228,7 +1228,7 @@ div[type="selectajax"] input[plugin="multiply"]{display:none;}
 
 div[type="selectajax"] > figure {border-radius:5px;background-size: cover;background-position: center;background-color: #444;width: 50px;height: 50px;position: absolute;left: 5px;bottom: 5px;}
 
-div[type="selectajax"] cards{margin: 5px 0 0 10px;float:left;}
+div[type="selectajax"] cards{float:left;}
 div[type="selectajax"] card{margin-right: 10px;float:left;background-color:#f6f6f6;}
 div[type="selectajax"] cards figure{width:32px;height:32px;margin:5px;float:left;background-color:#444;background-size:cover;background-position: center;}
 div[type="selectajax"] cards label{float:left;margin-top:10px;margin-left: 5px;}
@@ -1952,7 +1952,7 @@ body[mobile="0"] filter > input {width:860px;}
 
 /*/home/runner/css/scripts/css/theme/defaultForm.css*/
 body[mobile] form > div input,textarea {color: #444444;padding:20px;background-color:#f6f6f6;width:100%;}
-body[mobile] form > div {float: left;position:relative;margin-top:20px;}
+body[mobile] form > div {float: left;position:relative;margin-top:20px;margin-left:20px;}
 body[mobile] form > div > label {display: block;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
 
 
