@@ -33,6 +33,10 @@
 
 [theme="small"] item[view="0"] > pacientes {display:none;}
 [theme="small"] item > pacientes {width:400px;float:left;}
+
+
+[theme="small"] item > header pacientes id{width: 50px;float: right;text-align: right;}
+
 [theme="small"] item > pacientes > div > * {float:left;margin: 10px 0 0 10px;border-radius: 2px;padding: 4px 8px;}
 
 [theme="small"] item > pacientes > div > .icon-whatsapp {cursor:pointer;font-size:118%;background-color:#68b868;color:#fff;}

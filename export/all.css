@@ -1952,7 +1952,7 @@ body[mobile="0"] filter > input {width:860px;}
 
 /*/home/runner/css/scripts/css/theme/defaultForm.css*/
 body[mobile] form > div input,textarea {color: #444444;padding:20px;background-color:#f6f6f6;width:100%;}
-body[mobile] form > div {float: left;position:relative;margin-top:20px;margin-left:20px;}
+body[mobile] form > div {float: left;position:relative;margin-top:20px;}
 body[mobile] form > div > label {display: block;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
 
 
@@ -2094,6 +2094,10 @@ item[me="0"] detalhes > figure{cursor:pointer;}
 
 [theme="small"] item[view="0"] > pacientes {display:none;}
 [theme="small"] item > pacientes {width:400px;float:left;}
+
+
+[theme="small"] item > header pacientes id{width: 50px;float: right;text-align: right;}
+
 [theme="small"] item > pacientes > div > * {float:left;margin: 10px 0 0 10px;border-radius: 2px;padding: 4px 8px;}
 
 [theme="small"] item > pacientes > div > .icon-whatsapp {cursor:pointer;font-size:118%;background-color:#68b868;color:#fff;}
