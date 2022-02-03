@@ -1,4 +1,8 @@
 /* Form Field Radio  */
-form > div[type="radio"] > opt{ margin-right:10px;float:left;margin-left:20px;}
-form > div[type="radio"] > opt label{float:left;cursor:pointer;}
-form > div[type="radio"] > opt icon{font-size:120%;float:left;margin-right:10px;cursor:pointer;}
+form > div[type="radio"] > opt{float:left;cursor:pointer;padding:20px;}
+form > div[type="radio"] > opt > * {cursor:unset;float:left;}
+form > div[type="radio"] > opt label{}
+form > div[type="radio"] > opt icon{font-size:120%;margin-right:10px;}
+
+form > div[type="radio"] > opt[checked="0"] icon:before {content: "\ea56";}
+form > div[type="radio"] > opt[checked="1"] icon:before {content: "\ea54";}

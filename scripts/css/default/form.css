@@ -26,3 +26,5 @@ form checkbox button[selected="1"]:before {  content: "\ea52"}
 form textarea {  height: 200px;}
 
 form input[error="1"] {background-color:#ffe4e4;}
+
+window > form > div:last-child {margin-bottom:20px;}  

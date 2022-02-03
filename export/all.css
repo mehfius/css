@@ -830,6 +830,8 @@ form textarea {  height: 200px;}
 
 form input[error="1"] {background-color:#ffe4e4;}
 
+window > form > div:last-child {margin-bottom:20px;}  
+
 /*/home/runner/css/scripts/css/default/formcovid.css*/
 
 /*/home/runner/css/scripts/css/default/loading.css*/body[loading="1"] loading {
@@ -1146,6 +1148,16 @@ tooltipv2icon:hover tooltipv2 {
   opacity: 0.2;
 }
 
+/*/home/runner/css/scripts/css/formfields/checkbox.css*//* Form Field checkbox  */
+form > div[type="checkbox"] > opt{float:left;cursor:pointer;padding:20px;}
+form > div[type="checkbox"] > opt > * {cursor:unset;float:left;}
+
+
+form > div[type="checkbox"] > opt icon{font-size:120%;margin-right:10px;}
+
+form > div[type="checkbox"] > opt[checked="0"] icon:before {content: "\ea53";}
+form > div[type="checkbox"] > opt[checked="1"] icon:before {content: "\ea52";}
+
 /*/home/runner/css/scripts/css/formfields/formData.css*//* Select */
 
 window form > div > [type="date"] {height:60px;}
@@ -1340,9 +1352,13 @@ form > div[type="trueorfalse"][hide='1'] icon:before {  content: "\ea53"}
 form > div[type="trueorfalse"][hide='0'] icon:before {  content: "\ea52"}
 
 /*/home/runner/css/scripts/css/formfields/radio.css*//* Form Field Radio  */
-form > div[type="radio"] > opt{ margin-right:10px;float:left;margin-left:20px;}
-form > div[type="radio"] > opt label{float:left;cursor:pointer;}
-form > div[type="radio"] > opt icon{font-size:120%;float:left;margin-right:10px;cursor:pointer;}
+form > div[type="radio"] > opt{float:left;cursor:pointer;padding:20px;}
+form > div[type="radio"] > opt > * {cursor:unset;float:left;}
+form > div[type="radio"] > opt label{}
+form > div[type="radio"] > opt icon{font-size:120%;margin-right:10px;}
+
+form > div[type="radio"] > opt[checked="0"] icon:before {content: "\ea56";}
+form > div[type="radio"] > opt[checked="1"] icon:before {content: "\ea54";}
 
 /*/home/runner/css/scripts/css/formfields/selectBox.css*/selectbox {
 
