@@ -1174,7 +1174,7 @@ form .fileupload {  position: relative;  cursor: pointer;   float: left;margin-l
 
 form .fileupload input[type=file] {  position: absolute;  top: 0;  right: 0;  margin: 0;  padding: 0;  font-size: 100%;  cursor: pointer;  opacity: 0;  width: 100%;height: 100%;}
 
-form uploadedFiles {  float: left;overflow: auto;white-space: nowrap;margin-bottom: 20px;}
+form uploadedFiles {  float: left;overflow: auto;white-space: nowrap;}
 form uploadedFiles > .pdf h3{color: rgb(255, 255, 255);top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;position: absolute;}
 form uploadedFiles > .pdf {background-color:#000;}
 
@@ -1351,6 +1351,24 @@ form > div[type="trueorfalse"][hide='1'] icon:before {  content: "\ea53"}
 
 form > div[type="trueorfalse"][hide='0'] icon:before {  content: "\ea52"}
 
+/*/home/runner/css/scripts/css/formfields/password.css*/div[type="password"][pass="1"] input{-webkit-text-security: disc;}
+
+div[type="password"][pass="1"] icon:before {
+  content: "\e9ce";
+}
+
+div[type="password"][pass="0"] icon:before {
+  content: "\e9d1";
+}
+
+div[type="password"] icon{
+  position: absolute;
+    right: 18px;
+    bottom: 18px;
+    font-size: 120%;
+    cursor:pointer;
+}
+
 /*/home/runner/css/scripts/css/formfields/radio.css*//* Form Field Radio  */
 form > div[type="radio"] > opt{float:left;cursor:pointer;padding:20px;}
 form > div[type="radio"] > opt > * {cursor:unset;float:left;}
@@ -1425,6 +1443,13 @@ selectbox areas{
 
 float:left;margin:15px 10px 10px 0;
 }
+
+/*/home/runner/css/scripts/css/formfields/termos.css*//* Form Field checkbox  */
+form > div[type="termos"] > opt{float:left;cursor:pointer;padding:20px;}
+form > div[type="termos"] > opt > * {cursor:unset;float:left;}
+form > div[type="termos"] > opt icon{font-size:120%;margin-right:10px;}
+form > div[type="termos"] > opt[checked="0"] icon:before {content: "\ea53";}
+form > div[type="termos"] > opt[checked="1"] icon:before {content: "\ea52";}
 
 /*/home/runner/css/scripts/css/header/header.css*/body > header {
   
@@ -1636,6 +1661,14 @@ login form select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
 
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
 
 /*/home/runner/css/scripts/css/login/loginA.css*/login.login .plogin     {display:block;}
 login.login #email      {display:block;}

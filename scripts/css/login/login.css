@@ -99,3 +99,10 @@ login form select:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
 
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

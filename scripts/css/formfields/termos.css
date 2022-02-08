@@ -1,0 +1,6 @@
+/* Form Field checkbox  */
+form > div[type="termos"] > opt{float:left;cursor:pointer;padding:20px;}
+form > div[type="termos"] > opt > * {cursor:unset;float:left;}
+form > div[type="termos"] > opt icon{font-size:120%;margin-right:10px;}
+form > div[type="termos"] > opt[checked="0"] icon:before {content: "\ea53";}
+form > div[type="termos"] > opt[checked="1"] icon:before {content: "\ea52";}
