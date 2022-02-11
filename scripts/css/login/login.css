@@ -30,7 +30,7 @@ login #label          {display:none}
 login #email          {display:none}
 login #password       {display:none}
 login #password2       {display:none}
-login #cpf            {display:none;width:49%;}
+login #cpf            {display:none;}
 login #crm            {display:none}
 login #userstipos     {display:none}
 login #whatsapp       {display:none}

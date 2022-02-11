@@ -1592,7 +1592,7 @@ login #label          {display:none}
 login #email          {display:none}
 login #password       {display:none}
 login #password2       {display:none}
-login #cpf            {display:none;width:49%;}
+login #cpf            {display:none;}
 login #crm            {display:none}
 login #userstipos     {display:none}
 login #whatsapp       {display:none}
@@ -2000,27 +2000,27 @@ body[mobile="0"] filter > input {width:860px;}
 
 
 /*/home/runner/css/scripts/css/theme/defaultForm.css*/
-body[mobile] form > div input,textarea {color: #444444;padding:20px;background-color:#f6f6f6;width:100%;}
-body[mobile] form > div {float: left;position:relative;margin-top:20px;margin-left:20px;}
-body[mobile] form > div > label {display: block;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
+body[mobile] window form > div input,textarea {color: #444444;padding:20px;background-color:#f6f6f6;width:100%;}
+body[mobile] window form > div {float: left;position:relative;margin-top:20px;margin-left:20px;}
+body[mobile] window form > div > label {display: block;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
 
 
-body[mobile] form div[grid="1"] uploadedfiles{width: 100%;height:150px;} 
-body[mobile] form div[grid="1"] multipleview {width:800px;float:left;}
-body[mobile] form div[grid="1"] multiplehidden {width: 780px;float:left;}
+body[mobile] window form div[grid="1"] uploadedfiles{width: 100%;height:150px;} 
+body[mobile] window form div[grid="1"] multipleview {width:800px;float:left;}
+body[mobile] window form div[grid="1"] multiplehidden {width: 780px;float:left;}
 
-body[mobile] form div[grid="1"] tagsearchbox {width:400px;}
-body[mobile] form div[grid="1"] tagview {width:800px;}
-body[mobile] form div[grid="1"] taghidden {width:100%;height:131px;}
-body[mobile] form div[grid="1"][type="hide"] > input {float:left;}
-body[mobile] form div[grid="2"] tagview {width:395px;}
-body[mobile] form div[grid="2"] taghidden {width:100%;height:131px;}
-body[mobile] form div[grid="1"] tagsearchbox {width:400px;}
+body[mobile] window form div[grid="1"] tagsearchbox {width:400px;}
+body[mobile] window form div[grid="1"] tagview {width:800px;}
+body[mobile] window form div[grid="1"] taghidden {width:100%;height:131px;}
+body[mobile] window form div[grid="1"][type="hide"] > input {float:left;}
+body[mobile] window form div[grid="2"] tagview {width:395px;}
+body[mobile] window form div[grid="2"] taghidden {width:100%;height:131px;}
+body[mobile] window form div[grid="1"] tagsearchbox {width:400px;}
 
-body[mobile] form div[grid="3"] tagsearchbox {width:400px;}
-body[mobile] form div[grid="3"] tagview {width:200px;}
-body[mobile] form div[grid="3"] taghidden {width:100%;height:131px;}
-body[mobile] form div[grid="2"] tooltipv2icon tooltipv2 {  width: 250px;height:90px;}
+body[mobile] window form div[grid="3"] tagsearchbox {width:400px;}
+body[mobile] window form div[grid="3"] tagview {width:200px;}
+body[mobile] window form div[grid="3"] taghidden {width:100%;height:131px;}
+body[mobile] window form div[grid="2"] tooltipv2icon tooltipv2 {  width: 250px;height:90px;}
 
 
 /*/home/runner/css/scripts/css/theme/defaultFormDesktop.css*/body[mobile="0"] form div[grid="3"] {width:calc(33% - 24px);} 
