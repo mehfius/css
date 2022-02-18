@@ -7,17 +7,10 @@ body[openlogin="1"][logged="0"] login {display:block;}
 
 body[openlogin="1"][logged="0"] grade {display:block;}
 
-login {display:none;width:400px;z-index:550;background-color:#eee;right: 20px;border-radius:3px;
+login {display:none;z-index:550;background-color:#eee;border-radius:3px;}
 
-
-position: fixed;
-
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    left: 50%;
-
-
-}
+body[mobile="0"] login {width:400px;top: 50%;left: 50%;position: fixed;transform: translateX(-50%) translateY(-50%);}
+body[mobile="1"] login {width:100%;position: absolute;}
 
 login h1{display:none;text-align:center;font-size:500%;background-size: cover;background-repeat: no-repeat;color: transparent;}
 login p {text-align:center;padding:20px;}
@@ -37,12 +30,13 @@ login #whatsapp       {display:none}
 
 login #identidade     {display:none;float:right;width:49%;}
 login #telefone       {display:none}
-login #cep            {display:none}
+login #cep            {display:none;}
+
 login #endereco       {display:none}
 
-login #cidade         {display:none}
-login #estado         {display:none}
-login #bairro         {display:none}
+login #cidade         {display:none;background-color:transparent;cursor:default;float:right;width:49%;}
+login #estado         {display:none;background-color:transparent;cursor:default;float:left;width:49%;}
+login #bairro         {display:none;background-color:transparent;cursor:default;}
 
 login #btRecuperar    {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
 login #btCadastrar    {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
@@ -77,7 +71,7 @@ login form button.sucess {background-color: transparent}
 
 login button {border-radius:3px;height:40px;cursor: pointer;float: right;border: 0;box-shadow: none;background-color: transparent;outline: none;text-decoration:none;font-size:120%;}
 
-login form {float:left;padding: 30px;width:340px;}
+login form {float:left;padding: 30px;width: calc(100% - 60px);}
 
 login options{position:absolute;left:0;bottom:0;margin:30px 30px 30px 30px;}
 

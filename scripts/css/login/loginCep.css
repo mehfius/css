@@ -1,0 +1,2 @@
+login #cep[loading="0"] icon{display:none;}
+login #cep[loading="1"] icon{display:block;}
