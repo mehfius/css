@@ -2,7 +2,7 @@ login.insertmedico .pinsert    {display:block;}
 login.insertmedico #label      {display:block;}
 login.insertmedico #email      {display:block;}
 login.insertmedico #password   {display:block;}
-login.insertmedico #password2   {display:block;}
+login.insertmedico #password2  {display:block;}
 login.insertmedico #cpf        {display:block;}
 
 login.insertmedico #crm        {display:block;}
@@ -14,7 +14,9 @@ login.insertmedico #endereco   {display:block;}
 login.insertmedico #cidade     {display:block;}
 login.insertmedico #estado     {display:block;}
 login.insertmedico #bairro     {display:block;}
-
+login.insertmedico #rua        {display:block;}
+login.insertmedico #numero     {display:block;}
+login.insertmedico #complemento{display:block;}
 
 login.insertmedico .ptermos   {display:block;float: left;}
 

@@ -13,6 +13,9 @@ login.insertpaciente #endereco   {display:block;}
 login.insertpaciente #cidade     {display:block;}
 login.insertpaciente #estado     {display:block;}
 login.insertpaciente #bairro     {display:block;}
+login.insertpaciente #rua     {display:block;}
+login.insertpaciente #numero     {display:block;}
+login.insertpaciente #complemento     {display:block;}
 
 login.insertpaciente .ptermos   {display:block;float: left;}
 

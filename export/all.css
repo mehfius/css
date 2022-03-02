@@ -1584,11 +1584,14 @@ login form input {font-size:120%;border-radius:3px;text-indent:15px;border: 0;fl
 login #label          {display:none}
 login #email          {display:none}
 login #password       {display:none}
-login #password2       {display:none}
+login #password2      {display:none}
 login #cpf            {display:none;}
 login #crm            {display:none}
 login #userstipos     {display:none}
 login #whatsapp       {display:none}
+
+login #numero         {display:none;float:left;width:49%;}
+login #complemento    {display:none;float:right;width:49%;}
 
 login #identidade     {display:none;float:right;width:49%;}
 login #telefone       {display:none}
@@ -1596,14 +1599,16 @@ login #cep            {display:none;}
 
 login #endereco       {display:none}
 
-login #cidade         {display:none;background-color:transparent;cursor:default;float:right;width:49%;}
-login #estado         {display:none;background-color:transparent;cursor:default;float:left;width:49%;}
-login #bairro         {display:none;background-color:transparent;cursor:default;}
+login #cidade         {display:none;background-color:transparent;cursor:default;float:left;width:33%;}
+login #estado         {display:none;background-color:transparent;cursor:default;float:left;width:60px;}
+login #bairro         {display:none;background-color:transparent;cursor:default;float:left;width:33%;}
+login #rua            {display:none;background-color:transparent;cursor:default;}
+
 
 login #btRecuperar    {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
 login #btCadastrar    {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
 login #btEntrar       {display:none;background-color: #444;border-radius:2px;color:#fff;padding: 5px 10px;width:100%;margin-top:10px;}
-login #status         {width:100%;margin-top:10px;width: 100%;height: 20px;text-align: center;}
+login #status         {float:left;margin-top:10px;width: 100%;height: 20px;text-align: center;}
 
 login #btRecovery     {display:none;float:right;text-decoration:underline;padding:5px;}
 login #btInsert       {display:none;float:right;text-decoration:underline;padding:5px;}
@@ -1690,6 +1695,9 @@ login.insert #endereco   {display:block;}
 login.insert #cidade     {display:block;}
 login.insert #estado     {display:block;}
 login.insert #bairro     {display:block;}
+login.insert #rua        {display:block;}
+login.insert #numero     {display:block;}
+login.insert #complemento     {display:block;}
 
 login.insert .ptermos   {display:block;float: left;}
 
@@ -1703,7 +1711,7 @@ login.insert #btCadastrar        {display:block;}
 login.insertmedico #label      {display:block;}
 login.insertmedico #email      {display:block;}
 login.insertmedico #password   {display:block;}
-login.insertmedico #password2   {display:block;}
+login.insertmedico #password2  {display:block;}
 login.insertmedico #cpf        {display:block;}
 
 login.insertmedico #crm        {display:block;}
@@ -1715,7 +1723,9 @@ login.insertmedico #endereco   {display:block;}
 login.insertmedico #cidade     {display:block;}
 login.insertmedico #estado     {display:block;}
 login.insertmedico #bairro     {display:block;}
-
+login.insertmedico #rua        {display:block;}
+login.insertmedico #numero     {display:block;}
+login.insertmedico #complemento{display:block;}
 
 login.insertmedico .ptermos   {display:block;float: left;}
 
@@ -1741,6 +1751,9 @@ login.insertpaciente #endereco   {display:block;}
 login.insertpaciente #cidade     {display:block;}
 login.insertpaciente #estado     {display:block;}
 login.insertpaciente #bairro     {display:block;}
+login.insertpaciente #rua     {display:block;}
+login.insertpaciente #numero     {display:block;}
+login.insertpaciente #complemento     {display:block;}
 
 login.insertpaciente .ptermos   {display:block;float: left;}
 

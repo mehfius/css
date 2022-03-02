@@ -13,6 +13,9 @@ login.insert #endereco   {display:block;}
 login.insert #cidade     {display:block;}
 login.insert #estado     {display:block;}
 login.insert #bairro     {display:block;}
+login.insert #rua        {display:block;}
+login.insert #numero     {display:block;}
+login.insert #complemento     {display:block;}
 
 login.insert .ptermos   {display:block;float: left;}
 
