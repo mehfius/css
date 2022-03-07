@@ -1927,7 +1927,7 @@ body[suites="999"] window{background-color:#0e7f18;}
 body[suites="999"] > login{background-color:#0e7f18;}
 
 /*/home/runner/css/scripts/css/theme/default.css*/
-body > section { max-width: 960px;margin:0 auto;width:95%;height:100%;}
+body > section { max-width: 960px;margin:0 auto;height:100%;}
 
 body view{margin-top:70px;float:left;width:100%;}
 body[logged="0"] view{opacity:0;transition: all 0.3s ease-in-out;}
@@ -2084,13 +2084,13 @@ body[mobile="1"] window selectbox{height:80%;width:80%;}
 /* Mobile */
 
 
-body[mobile="1"] {width:480px;}
-body[mobile="1"] > section{float:left !important;height:200px !important;}
-body[mobile="1"] > header{width:480px;}
+body[mobile="1"] {/* width:480px; */}
+body[mobile="1"] > section{float:left !important;height:200px !important;max-width: none;}
+body[mobile="1"] > header{/* width:480px; */}
 body[mobile="1"] window {width:100%;height:100%;}
 
 
-body[mobile="1"] view {width:460px;margin-left:10px;}
+body[mobile="1"] view {width:calc(100% - 20px);margin-left:10px;}
 
 
 body[mobile="1"] button[action]{font-size:120%;}

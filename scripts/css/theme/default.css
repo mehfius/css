@@ -1,5 +1,5 @@
 
-body > section { max-width: 960px;margin:0 auto;width:95%;height:100%;}
+body > section { max-width: 960px;margin:0 auto;height:100%;}
 
 body view{margin-top:70px;float:left;width:100%;}
 body[logged="0"] view{opacity:0;transition: all 0.3s ease-in-out;}
