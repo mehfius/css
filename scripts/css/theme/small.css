@@ -32,14 +32,28 @@
 
 
 [theme="small"] item[view="0"] > pacientes {display:none;}
-[theme="small"] item > pacientes {width:400px;float:left;}
+[theme="small"] item > pacientes {width:400px;float:left;cursor:pointer;}
 
 
 [theme="small"] item > header pacientes id{width: 50px;float: right;text-align: right;}
 
-[theme="small"] item > pacientes > div > * {float:left;margin: 10px 0 0 10px;border-radius: 2px;padding: 4px 8px;}
+[theme="small"] item > pacientes > div > * {display:none;float:left;margin: 10px 0 0 10px;border-radius: 2px;padding: 4px 8px;}
+
+[theme="small"] item > pacientes[open="1"] > div > email      {display:block;}
+[theme="small"] item > pacientes[open="1"] > div > endereco   {display:block;}
+[theme="small"] item > pacientes[open="1"] > div > nascimento {display:block;}
+[theme="small"] item > pacientes[open="1"] > div > telefone   {display:block;}
+[theme="small"] item > pacientes[open="1"] > div > cpf        {display:block;}
+[theme="small"] item > pacientes[open="1"] > div > identidade {display:block;}
+
+[theme="small"] item > pacientes > div .icon-profile {float: left;margin-right: 5px;line-height: 1.2;}
+
 
 [theme="small"] item > pacientes > div > .icon-whatsapp {cursor:pointer;font-size:118%;background-color:#68b868;color:#fff;}
 [theme="small"] item > pacientes > div > .icon-whatsapp:hover{box-shadow: 0 1px 5px #888;}
 
 [theme="small"] item[view="1"] p {white-space: pre-wrap;height:auto;}
+
+
+[theme="small"] item > pacientes > div > label{display:block;}
+[theme="small"] item > pacientes > div > icon[class='icon-profile']{display:block;}
