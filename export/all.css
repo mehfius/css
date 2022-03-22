@@ -2165,6 +2165,7 @@ item[me="0"] detalhes > figure{cursor:pointer;}
 [theme="small"] item > pacientes[open="1"] > div > telefone   {display:block;}
 [theme="small"] item > pacientes[open="1"] > div > cpf        {display:block;}
 [theme="small"] item > pacientes[open="1"] > div > identidade {display:block;}
+[theme="small"] item > pacientes[open="1"] > div > icon {display:block;}
 
 [theme="small"] item > pacientes > div .icon-profile {float: left;margin-right: 5px;line-height: 1.2;}
 
