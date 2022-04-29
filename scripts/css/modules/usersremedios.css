@@ -1,0 +1,5 @@
+item {min-height: auto;}
+item p {height: auto;}
+item options {top:0;}
+item options button[action="view"] {display:none;}
+window {min-height:600px;}

@@ -22,6 +22,7 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
         arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
       } else {
         arrayOfFiles.push(path.join(__dirname, dirPath, "/", file))
+
       }
     })
 
@@ -37,13 +38,34 @@ const cssAllFiles = function (){
 
   Object.entries(result).forEach(([key, value]) => {
 
+    let isModules = value.indexOf('/modules/');
+
+    let modules   = path.basename(value,'.css');
+
     data = fs.readFileSync(value, 'utf8');
+
+    if(isModules>-1){
+      
+      let css       = "body[modules='"+modules+"']";
+      
+      data.split(/\r?\n/).forEach(line =>  {
+        
+        text+=css+" "+line;
+        console.log(css+" "+line);
+        
+      });
+      
+    }else{
+      
+      text+="/*"+value+"*/";
+  
+      text+=data;
+  
+      text+="\n\n";
+      
+    }
     
-    text+="/*"+value+"*/";
 
-    text+=data;
-
-    text+="\n\n";
 
   });
 
