@@ -13,7 +13,7 @@
  [theme="small"] item[view="0"] detalhes figure{width: 32px;height: 32px;}
  [theme="small"] item[view="1"] detalhes figure{width: 270px;height: 270px;}
 
- [theme="small"] item > options {z-index:20;float:right;width:100px;display:none;position: absolute;right: 0px;top: 40px;}
+ [theme="small"] item > options {z-index:20;float:right;width:auto;display:none;position: absolute;right: 0px;top: 40px;}
  [theme="small"] item:hover > options {display:block;}
 
  [theme="small"] item > header > category {padding:10px;line-height:1.5;}

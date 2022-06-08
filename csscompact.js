@@ -50,8 +50,8 @@ const cssAllFiles = function (){
       
       data.split(/\r?\n/).forEach(line =>  {
         
-        text+=css+" "+line;
-        console.log(css+" "+line);
+        text+=css+""+line;
+        console.log(css+""+line);
         
       });
       
@@ -89,7 +89,9 @@ const categoryColors = async function (){
     style+='item[category="'+value.id+'"] > share > div {background-color:'+value.color+'20;}';
     style+='item[category="'+value.id+'"] data > updated {background-color:'+value.color+'20;}';
     style+='item[category="'+value.id+'"] > pacientes > div > * {background-color:'+value.color+'20;}';
-
+    style+='item[category="'+value.id+'"] options > button{background-color:'+value.color+'15;}';
+    style+='item[category="'+value.id+'"] chat post message{background-color:'+value.color+'15;}';
+    
   });
 
   return style;
