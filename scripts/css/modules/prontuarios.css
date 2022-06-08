@@ -7,8 +7,11 @@
  chat post userslabel{float:left;width:100%;font-weight:bold;font-size:80%;}
  chat post created_at{float:left;width:100%;display:none;}
  chat post label{float:left;width:100%;margin-top:10px;overflow-wrap: break-word;}
+ chat formchat {position:relative;float: left;width: 100%;}
  chat input {padding: 10px;border-radius: 10px;width: calc(100% - 66px);}
- chat button {padding: 10px;border-radius: 10px;margin-left: 10px;}
+ chat button {padding: 10px;border-radius: 10px;margin-left: 10px;cursor:pointer;}
+ chat button[disabled] {display:none;}
+ chat icon {-webkit-animation: spin 1.0s infinite linear;position: absolute;right: 23px;top: 10px;z-index: -1;}
  item[chat="1"] chat{display:block;}
 [areas='100'] window #divpacientes {display:none;}
  item[view="0"] > options > button[action="view"] {display:block;}
