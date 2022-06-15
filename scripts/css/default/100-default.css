@@ -147,7 +147,7 @@ body {
 
 }
 
-body[logged="1"]{background-image: url('https://doctor8.com.br/images/pattern.png');}
+/* body[logged="1"]{background-image: url('https://doctor8.com.br/images/pattern.png');} */
 
 
 h1 {
