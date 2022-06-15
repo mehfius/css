@@ -142,6 +142,8 @@ body {
   margin: 0 auto;
   overflow-x: hidden;
   position:relative;
+  background-repeat:repeat;
+  background-image: url('https://doctor8.com.br/images/pattern.png');
 
 }
 
@@ -214,6 +216,10 @@ body > section > section > h1 {
   padding-bottom: 10px
 }
 
+
+body[suites='1'][areas='100'] #divespecialidades {
+  display: none;
+}
 filtro {
   width: 100%;
   float: left;

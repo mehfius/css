@@ -1,0 +1,9 @@
+view > tips {
+  
+  float:left;
+  width: calc(100% - 20px);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff4c1;
+  
+}

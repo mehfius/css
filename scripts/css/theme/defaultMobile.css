@@ -11,7 +11,7 @@ body[mobile="1"] window {width:100%;height:100%;}
 body[mobile="1"] view {width:calc(100% - 20px);margin-left:10px;}
 
 
-body[mobile="1"] button[action]{font-size:120%;}
+body[mobile="1"] button[action]{font-size:100%;}
 body[mobile="1"] filter > input {width:400px;}
 
 body[mobile="1"][filter="1"] boxfilter{width:100%;}

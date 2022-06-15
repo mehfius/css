@@ -1,5 +1,5 @@
 
-body > header > options > icon {
+body > header > content > options > icon {
   
   font-size: 16pt;
   padding: 10px;
@@ -13,7 +13,7 @@ body > header > options > icon {
   
 }
 
-body > header > options > .icon-bell counternotification {
+body > header > content > options > .icon-bell counternotification {
   
   padding:2px 3px;
   border-radius:5px;
@@ -28,4 +28,4 @@ body > header > options > .icon-bell counternotification {
 }
 
 
-body[modules=""] > header .icon-search{display:none;}
+body[modules=""] > header > content .icon-search{display:none;}

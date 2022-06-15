@@ -1,13 +1,21 @@
 
-modal {display:none;position: absolute;right: 10px;top: 70px;width: 250px;}
+/* modal {display:none;position: absolute;right: 10px;top: 70px;width: 250px;} */
 
-modal div{background-color: #fff;width: 100%;border-radius: 2px;font-size: 80%;
-box-shadow: 0px 0px 2px -1px #000;float:left;margin-bottom:10px;}
+modal {display:none;width: 400px;position: fixed;top: 110px;transform: translateX(-50%);left: 50%;}
+modal icon {font-size:34pt;padding:20px;float:left;}
+
+
+body[areas="50"] modal icon {background-color: var(--color1);color: #fff;}
+body[areas="50"][modules=''] modal {display: block;}
+body[areas="100"] modal icon {background-color: var(--color2);color: #fff;}
+body[areas="100"][modules=''] modal {display: block;}
+
+modal div{cursor:pointer;background-color: #fff;width: 100%;border-radius: 2px;font-size: 80%;float:left;margin-bottom:10px;}
 
 modal header {float:left;width:100%;display:none;}
 modal header label{color:#fff;padding:10px;float:left;}
 modal content {float:left;width:100%;}
-modal content p{float:left;padding:20px;line-height:1.5;}
+modal content p{float:left;padding:20px;line-height:1.5;width: calc(100% - 130px);font-size: 120%;}
 modal content button {cursor:pointer;margin: 20px auto;display: block;border-radius: 10px;color: #fff;padding: 10px 20px;}
 
 modal content:nth-child(2n+1){border-top: 1px solid #000;}

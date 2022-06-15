@@ -1,6 +1,6 @@
 body > header {
   
-  top:-70px;
+  top:0;
   width: 100%;
   margin: 0 auto;
   background-color: #000;
@@ -8,26 +8,26 @@ body > header {
   height: 60px;
   position: fixed;
   z-index: 200;
-  will-change: top;-webkit-transition: top 1s;-moz-transition: top 1s;will-change: top;
+  display:none;
+/*   will-change: top;-webkit-transition: top 1s;-moz-transition: top 1s;will-change: top; */
   
 }
 
-body[logged="1"] > header{top:0;will-change: top;-webkit-transition: top 1s;-moz-transition: top 1s;will-change: top;}
+body[logged="1"] > header{display:block;}
 
-body > header > profile {
-  float: right;
-  margin: 10px 0 10px 10px;
-  padding-right: 10px;
-  border-right: 1px solid #0F89CA
+body > header > content {
+  max-width:960px;
+  margin:0 auto;
+  display:block;
 }
 
-body > header > icon {font-size: 16pt;padding: 19px;line-height: 1;color: #fff; }
+body > header > content > icon {font-size: 16pt;padding: 19px;line-height: 1;color: #fff; }
 
-body > header > .icon-menu {float: left;background-color: transparent;cursor: pointer;-webkit-tap-highlight-color: transparent;}
+body > header > content > .icon-menu {float: left;background-color: transparent;cursor: pointer;-webkit-tap-highlight-color: transparent;}
 
-body > header > a > logo {float: left;padding: 12px;background-size:cover;background-image:url('https://doctor8.com.br/images/logo_branco.png');width:130px;height:20px;margin-top:8px;}
+body > header > content > a > logo {cursor:pointer;float: left;padding: 12px;background-size:cover;background-image:url('https://doctor8.com.br/images/logo_branco.png');width:130px;height:20px;margin-top:8px;}
 
-body > header > a > logo > span {
+body > header > content > a > logo > span {
   font-family: Droid Sans;
   line-height: 2.4;
   font-size: 12pt;
@@ -38,7 +38,7 @@ body > header > a > logo > span {
   display:none;
 }
 
-body > header > mobileversion {
+body > header > content > mobileversion {
  font-family: 'icomoon';
   font-style: normal;
   font-weight: normal;
