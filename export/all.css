@@ -143,10 +143,11 @@ body {
   overflow-x: hidden;
   position:relative;
   background-repeat:repeat;
-  background-image: url('https://doctor8.com.br/images/pattern.png');
+  background-image: unset;
 
 }
 
+body[logged="1"]{background-image: url('https://doctor8.com.br/images/pattern.png');}
 
 
 h1 {
