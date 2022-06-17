@@ -1,12 +1,3 @@
 {
-  "files": {
-    "scripts/css/theme/default.css": [
-      {
-        "id": "3695eb21-3347-4071-8bb9-b46672814174",
-        "line": 15,
-        "version": 77,
-        "index": 445
-      }
-    ]
-  }
+  "files": {}
 }

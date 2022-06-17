@@ -13,12 +13,12 @@
  [theme="small"] item[view="0"] detalhes figure{width: 32px;height: 32px;}
  [theme="small"] item[view="1"] detalhes figure{width: 270px;height: 270px;}
 
- [theme="small"] item > options {z-index:20;float:right;width:auto;position: absolute;right: 0px;bottom: -45px;}
+ [theme="small"] item > options {z-index:20;float:right;width:auto;position: absolute;right: 0px;bottom: -40px;}
  [theme="small"] item:hover > options {display:block;}
 
  [theme="small"] item > header > category {padding:10px;line-height:1.5;}
 
- [theme="small"] item > footer > data {font-weight: bold;float:left;width: 100%;}
+ [theme="small"] item > footer > data {font-weight: bold;float:left;width: 80%;font-size:80%;}
  [theme="small"] item > footer > data > updated{margin:10px 0 10px 10px;float:left;padding: 4px 8px;border-radius: 2px;}
  [theme="small"] item > footer > data > created{margin:10px 0 10px 10px;float:left;padding: 4px 8px;border-radius: 2px;}
 

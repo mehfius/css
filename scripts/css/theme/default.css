@@ -6,32 +6,29 @@ body[logged="0"] view{opacity:0;transition: all 0.3s ease-in-out;}
 
 body view detalhes {float:left;overflow:auto hidden;white-space: nowrap;}
 
-
-item > options > button {font-size: 150%;border-radius: 3px;padding: 10px;float: right;margin: 5px 0 0 5px;cursor:pointer;}
+item > options > button {font-size: 100%;border-radius: 3px;float: right;margin: 5px 0 0 5px;}
 item > options > button:hover {box-shadow: 0 1px 5px #888;}
 
-
-
+item > options > button > icon {float:left;padding:10px;cursor:pointer;}
+item > options > button > label {padding:10px 10px 10px 0;float:left;cursor:pointer;line-height:1;}
 
 item[category]{margin-bottom:80px;}
 
 item > header {float:left;font-size:120%;width:100%;}
 
-
 item > footer > button {float: right;}
 
-item {position:relative; float: left;  width: 100%;font-size: 80%;background-color:#fff;-webkit-tap-highlight-color: transparent;border-radius:3px;}
-
+item {position:relative; float: left;  width: 100%;background-color:#fff;-webkit-tap-highlight-color: transparent;border-radius:3px;}
 
 item > p { float:left;line-height:1.5;font-size:120%;}
 
 item detalhes > figure{display:inline-block;position:relative;background-position: center center;background-size:cover;}
 
-item header data{margin:2.5%;float:right;}
+item header data{margin:2.5%;float:right;font-size:80%;}
 
-item > header > category {float:left;font-weight:bold;}
+item > header > category {float:left;font-weight:bold;font-size:80%;}
 
-item > header > pacientes {float:right;margin:10px;line-height:1.5;font-weight:bold;}
+item > header > pacientes {float:right;margin:10px;line-height:1.5;font-weight:bold;font-size:80%;}
 item > header > pacientes icon {display:none;}
 
 item > header > pacientes label {cursor:pointer;} 
@@ -40,9 +37,6 @@ item > header > icon.icon-share2 {float:left;padding:2.5% 0 2.5% 2.5%;}
 
 item > pacientes > div {float:left;}
 item > pacientes > div > icon{margin-right:10px;}
-
-
-
 
 item > footer > user {float:left;padding:2.5%;}
 item > footer > user > div {float:left;}
@@ -65,5 +59,3 @@ item > share > div > icon{margin-right:10px;}
     line-height: 1;
     -webkit-font-smoothing: antialiased;
 }
-
-
