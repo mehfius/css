@@ -20,15 +20,15 @@ item > footer > button {float: right;}
 
 item {position:relative; float: left;  width: 100%;background-color:#fff;-webkit-tap-highlight-color: transparent;border-radius:3px;}
 
-item > p { float:left;line-height:1.5;font-size:120%;}
+item > p { float:left;line-height:1.5;font-size:100%;}
 
 item detalhes > figure{display:inline-block;position:relative;background-position: center center;background-size:cover;}
 
 item header data{margin:2.5%;float:right;font-size:80%;}
 
-item > header > category {float:left;font-weight:bold;font-size:80%;}
+item > header > category {float:left;font-weight:bold;font-size:80%;line-height:1;}
 
-item > header > pacientes {float:right;margin:10px;line-height:1.5;font-weight:bold;font-size:80%;}
+item > header > pacientes {float:right;margin:10px;line-height:1;font-weight:bold;font-size:80%;}
 item > header > pacientes icon {display:none;}
 
 item > header > pacientes label {cursor:pointer;} 

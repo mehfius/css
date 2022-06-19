@@ -16,7 +16,7 @@
  [theme="small"] item > options {z-index:20;float:right;width:auto;position: absolute;right: 0px;bottom: -40px;}
  [theme="small"] item:hover > options {display:block;}
 
- [theme="small"] item > header > category {padding:10px;line-height:1.5;}
+ [theme="small"] item > header > category {padding:10px;line-height:1;}
 
  [theme="small"] item > footer > data {font-weight: bold;float:left;width: 80%;font-size:80%;}
  [theme="small"] item > footer > data > updated{margin:10px 0 10px 10px;float:left;padding: 4px 8px;border-radius: 2px;}
@@ -35,7 +35,7 @@
 [theme="small"] item > pacientes {width:400px;float:left;cursor:pointer;}
 
 
-[theme="small"] item > header pacientes id{width: 50px;float: right;text-align: right;}
+[theme="small"] item > header pacientes id{width: 50px;float: right;text-align: right;display:none;}
 
 [theme="small"] item > pacientes > div > * {display:none;float:left;margin: 10px 0 0 10px;border-radius: 2px;padding: 4px 8px;}
 
