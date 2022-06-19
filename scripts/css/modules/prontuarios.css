@@ -8,7 +8,7 @@
  chat post created_at{float:left;width:100%;display:none;}
  chat post label{float:left;width:100%;margin-top:10px;overflow-wrap: break-word;}
  chat formchat {position:relative;float: left;width: 100%;}
- chat input {padding: 10px;border-radius: 10px;width: calc(100% - 66px);}
+ chat input {padding: 10px;border-radius: 10px;width: calc(100% - 75px);}
  chat button {padding: 10px;border-radius: 10px;margin-left: 10px;cursor:pointer;}
  chat button[disabled] {display:none;}
  chat icon {-webkit-animation: spin 1.0s infinite linear;position: absolute;right: 23px;top: 10px;z-index: -1;}

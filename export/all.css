@@ -534,7 +534,7 @@ menu button {
   float: right;
   margin-bottom: 10px;
   color: #fff;
-  cursor: pointer;
+
   border: 0;
   overflow:auto;
   text-transform: capitalize;
@@ -547,7 +547,7 @@ menu button > label {
 
   padding: 10px 10px 10px 0;
   float: left;
-  
+    cursor: pointer;
 }
 
 body[areas="100"] menu > button {
@@ -563,7 +563,7 @@ body[areas="50"] menu > button {
 }
 
 menu > button > icon {
-  
+    cursor: pointer;
   float: left;
   margin-right: 10px;
   padding: 10px;
@@ -1867,7 +1867,7 @@ login.recovery #btLogin   {display:block;}
 login.recovery #btInsert   {display:block;}
 login.recovery #btRecuperar{display:block;}
 
-body[modules='prontuarios'] chat {width: calc(100% - 20px);display:none;float:left;margin:10px;}body[modules='prontuarios'] chat viewchat{width: 100%;height: 300px;float: left;overflow: auto;margin-bottom:10px;}body[modules='prontuarios'] chat figure {width:32px;height:32px;float:left;background-position: center center;background-repeat: no-repeat;background-size: cover;border-radius:30px;margin-right:5px;}body[modules='prontuarios'] chat post {float:left;width:100%;}body[modules='prontuarios'] chat post message {float: left;border-radius: 10px;padding: 10px;margin-bottom: 10px;max-width: body[modules='prontuarios'] calc(100% - 66px);}body[modules='prontuarios'] chat post userslabel{float:left;width:100%;font-weight:bold;font-size:80%;}body[modules='prontuarios'] chat post created_at{float:left;width:100%;display:none;}body[modules='prontuarios'] chat post label{float:left;width:100%;margin-top:10px;overflow-wrap: break-word;}body[modules='prontuarios'] chat formchat {position:relative;float: left;width: 100%;}body[modules='prontuarios'] chat input {padding: 10px;border-radius: 10px;width: calc(100% - 66px);}body[modules='prontuarios'] chat button {padding: 10px;border-radius: 10px;margin-left: 10px;cursor:pointer;}body[modules='prontuarios'] chat button[disabled] {display:none;}body[modules='prontuarios'] chat icon {-webkit-animation: spin 1.0s infinite linear;position: absolute;right: 23px;top: 10px;z-index: -1;}body[modules='prontuarios'] item[chat="1"] chat{display:block;}body[modules='prontuarios'][areas='100'] window #divpacientes {display:none;}body[modules='prontuarios'] item[view="0"] > options > button[action="view"] {display:block;}body[modules='prontuarios'] item[view="0"] > options > button[action="close"] {display:none;}body[modules='prontuarios'] item[view="1"] > options > button[action="view"] {display:none;}body[modules='prontuarios'] item[view="1"] > options > button[action="close"] {display:block;}body[modules='prontuarios'] item > options > button[action="chatview"] {display:block;}body[modules='prontuarios'] item > options > button[action="chatclose"] {display:none;}body[modules='prontuarios'] item[chat="1"] > options > button[action="chatview"] {display:none;}body[modules='prontuarios'] item[chat="1"] > options > button[action="chatclose"] {display:block;}body[modules='usersremedios'] item {min-height: auto;margin-bottom: 10px;border-radius: 5px;}body[modules='usersremedios'] item p {height: auto;}body[modules='usersremedios'] item options {top:0;}body[modules='usersremedios'] item options button[action="view"] {display:none;}body[modules='usersremedios'] window {min-height:600px;}/*/home/runner/css/scripts/css/theme/colors.css*/body{
+body[modules='prontuarios'] chat {width: calc(100% - 20px);display:none;float:left;margin:10px;}body[modules='prontuarios'] chat viewchat{width: 100%;height: 300px;float: left;overflow: auto;margin-bottom:10px;}body[modules='prontuarios'] chat figure {width:32px;height:32px;float:left;background-position: center center;background-repeat: no-repeat;background-size: cover;border-radius:30px;margin-right:5px;}body[modules='prontuarios'] chat post {float:left;width:100%;}body[modules='prontuarios'] chat post message {float: left;border-radius: 10px;padding: 10px;margin-bottom: 10px;max-width: body[modules='prontuarios'] calc(100% - 66px);}body[modules='prontuarios'] chat post userslabel{float:left;width:100%;font-weight:bold;font-size:80%;}body[modules='prontuarios'] chat post created_at{float:left;width:100%;display:none;}body[modules='prontuarios'] chat post label{float:left;width:100%;margin-top:10px;overflow-wrap: break-word;}body[modules='prontuarios'] chat formchat {position:relative;float: left;width: 100%;}body[modules='prontuarios'] chat input {padding: 10px;border-radius: 10px;width: calc(100% - 75px);}body[modules='prontuarios'] chat button {padding: 10px;border-radius: 10px;margin-left: 10px;cursor:pointer;}body[modules='prontuarios'] chat button[disabled] {display:none;}body[modules='prontuarios'] chat icon {-webkit-animation: spin 1.0s infinite linear;position: absolute;right: 23px;top: 10px;z-index: -1;}body[modules='prontuarios'] item[chat="1"] chat{display:block;}body[modules='prontuarios'][areas='100'] window #divpacientes {display:none;}body[modules='prontuarios'] item[view="0"] > options > button[action="view"] {display:block;}body[modules='prontuarios'] item[view="0"] > options > button[action="close"] {display:none;}body[modules='prontuarios'] item[view="1"] > options > button[action="view"] {display:none;}body[modules='prontuarios'] item[view="1"] > options > button[action="close"] {display:block;}body[modules='prontuarios'] item > options > button[action="chatview"] {display:block;}body[modules='prontuarios'] item > options > button[action="chatclose"] {display:none;}body[modules='prontuarios'] item[chat="1"] > options > button[action="chatview"] {display:none;}body[modules='prontuarios'] item[chat="1"] > options > button[action="chatclose"] {display:block;}body[modules='usersremedios'] item {min-height: auto;margin-bottom: 10px;border-radius: 5px;}body[modules='usersremedios'] item p {height: auto;}body[modules='usersremedios'] item options {top:0;}body[modules='usersremedios'] item options button[action="view"] {display:none;}body[modules='usersremedios'] window {min-height:600px;}/*/home/runner/css/scripts/css/theme/colors.css*/body{
   --color1: #1c6c8c;
   --color2: #f36237;
 }
