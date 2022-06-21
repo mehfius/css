@@ -1,5 +1,7 @@
 body window{position:fixed;z-index:550;top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;overflow:auto;max-height:100%;}
-body window form {float:left;background-color:#fff;width:100%;box-shadow: inset -1px 5px 8px -7px #000}
+body window form {float:left;background-color:#fff;width:100%;box-shadow: inset -1px 5px 8px -7px #000;border-radius: 25px;
+    overflow: auto;
+    height: calc(100% - 60px);}
 
 window form menu{position:absolute;right:0;bottom:0;z-index:500;}
 

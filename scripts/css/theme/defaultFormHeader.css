@@ -7,10 +7,10 @@ window > header > button {visibility:hidden;color: #fff;  cursor: pointer;   box
 window > header > icon {cursor:pointer;color:#fff;float:right;padding: 15px;height: 9px;font-size: 100%;line-height: 0.3;}
 window > header > icon > label{margin-left: 10px;float: right;line-height: 1;cursor:pointer;}
 
-window > header > icon[action]{border-radius: 50px;background-color: #00000020;float:right; font-size: 100%;line-height: 1;height: 15px;margin-bottom: 10px;margin-top: 10px;margin-left: 10px;}
+window > header > icon[action]{border-radius: 50px;margin-left:10px;background-color: #00000020;float:right; font-size: 100%;line-height: 1;height: 15px;margin-bottom: 10px;}
 
-window > header > icon[action="back"]{float:left;margin-left:10px;margin-right:0;}
-window > header > icon[action="save"]{margin-right:10px;}
+window > header > icon[action="back"]{float:left;margin-left:0;}
+window > header > icon[action="save"]{}
 
 window > header > icon[action="attach"]{position:relative;overflow:hidden;}
 window > header > icon[action="attach"] input{position: absolute;cursor:pointer;left: 0;top: 0;height: 100%;width: 100%;opacity: 0;}

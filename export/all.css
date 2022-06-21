@@ -842,7 +842,9 @@ boxfilter filtersearch[mouse="0"] div{display:none;}
 filterstandard icon{float:left;padding:20px;}
 
 /*/home/runner/css/scripts/css/default/form.css*/body window{position:fixed;z-index:550;top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;overflow:auto;max-height:100%;}
-body window form {float:left;background-color:#fff;width:100%;box-shadow: inset -1px 5px 8px -7px #000}
+body window form {float:left;background-color:#fff;width:100%;box-shadow: inset -1px 5px 8px -7px #000;border-radius: 25px;
+    overflow: auto;
+    height: calc(100% - 60px);}
 
 window form menu{position:absolute;right:0;bottom:0;z-index:500;}
 
@@ -2022,7 +2024,8 @@ item > share > div > icon{margin-right:10px;}
 
 body[mobile="0"] view detalhes figure{display:inline-block;}
 
-body[mobile="0"] window {width:820px;box-shadow:0 0px 20px 0px #000;}
+body[mobile="0"] window {width:820px;box-shadow:0 0px 20px 0px #000;padding: 10px;
+    border-radius: 25px;height: 90%;}
 body[mobile="0"] filter > input {width:860px;}
 
 
@@ -2063,10 +2066,10 @@ window > header > button {visibility:hidden;color: #fff;  cursor: pointer;   box
 window > header > icon {cursor:pointer;color:#fff;float:right;padding: 15px;height: 9px;font-size: 100%;line-height: 0.3;}
 window > header > icon > label{margin-left: 10px;float: right;line-height: 1;cursor:pointer;}
 
-window > header > icon[action]{border-radius: 50px;background-color: #00000020;float:right; font-size: 100%;line-height: 1;height: 15px;margin-bottom: 10px;margin-top: 10px;margin-left: 10px;}
+window > header > icon[action]{border-radius: 50px;margin-left:10px;background-color: #00000020;float:right; font-size: 100%;line-height: 1;height: 15px;margin-bottom: 10px;}
 
-window > header > icon[action="back"]{float:left;margin-left:10px;margin-right:0;}
-window > header > icon[action="save"]{margin-right:10px;}
+window > header > icon[action="back"]{float:left;margin-left:0;}
+window > header > icon[action="save"]{}
 
 window > header > icon[action="attach"]{position:relative;overflow:hidden;}
 window > header > icon[action="attach"] input{position: absolute;cursor:pointer;left: 0;top: 0;height: 100%;width: 100%;opacity: 0;}
@@ -2106,7 +2109,7 @@ body[mobile="1"] window selectbox{height:80%;width:80%;}
 body[mobile="1"] {/* width:480px; */}
 /* body[mobile="1"] > section{float:left !important;height:200px !important;max-width: none;}*/
 body[mobile="1"] > header{/* width:480px; */}
-body[mobile="1"] window {width:100%;height:100%;}
+body[mobile="1"] window {width: calc(100% - 20px);height:calc(100% - 20px);padding: 10px;}
 
 
 body[mobile="1"] view {width:calc(100% - 20px);margin-left:10px;}
