@@ -1,0 +1,19 @@
+
+div[type="mp4"] > video {
+  
+float:left;
+  width:100%;
+}
+
+
+div[type="mp4"] > options > span.icon-bin {
+
+
+  
+}
+
+div[type="mp4"] > options > span.icon-play3 {
+  
+display:none;
+  
+}

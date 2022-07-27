@@ -8,24 +8,60 @@ form .fileupload {  position: relative;  cursor: pointer;   float: left;margin-l
 
 form .fileupload input[type=file] {  position: absolute;  top: 0;  right: 0;  margin: 0;  padding: 0;  font-size: 100%;  cursor: pointer;  opacity: 0;  width: 100%;height: 100%;}
 
-form uploadedFiles {  float: left;overflow: auto;white-space: nowrap;}
-form uploadedFiles > .pdf h3{color: rgb(255, 255, 255);top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;position: absolute;}
-form uploadedFiles > .pdf {background-color:#000;}
+form uploadedFiles {float: left;overflow: auto;white-space: nowrap;}
 
-form uploadedFiles > div {background-image:var(--loading);background-repeat:no-repeat;background-position:center center;position:relative;width:128px;height:128px;   margin-right: 10px; overflow: hidden;display: inline-block;}
-form uploadedFiles > div > figure {cursor:pointer;width:100%;height:100%;background-position: center center; background-repeat:no-repeat;background-size:cover; }
-form uploadedFiles > div > options { display: none;  position: absolute;bottom:0;right:0;width:100%;background-color:#444;}
-form uploadedFiles > div:hover > options { display: block; }
+form uploadedFiles div > label {
+  
+  top: calc(50% + 20px);
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  position:absolute;
 
-form uploadedFiles > div > label {top: calc(50% + 20px);transform: translateX(-50%) translateY(-50%);left: 50%;position:absolute;}
-form uploadedFiles > div > options > span {color: #fff; padding:7px; font-size: 11pt; cursor: pointer;   display: block; float:left; }
+}
 
-form uploadedFiles div icon {-webkit-animation: spin 1.5s infinite linear;
-    top: calc(50% - 26px);
-    transform: translateX(-50%) translateY(-50%);
-    left: calc(50% - 16px);
+form uploadedFiles div {
+  
+/*   background-image:var(--loading); */
+  background-repeat:no-repeat;
+  background-position:center center;
+  position:relative;
+  margin-right: 10px;
+  overflow: hidden;
+
+  float:left;
+  margin-bottom:10px;
+  background-color:#eee;
+  
+}
+
+
+form uploadedFiles div icon {
+  
+  -webkit-animation: spin 1.5s infinite linear;
+  top: calc(50% - 26px);
+  transform: translateX(-50%) translateY(-50%);
+  left: calc(50% - 16px);
+  position: absolute;
+  display: block;
+  font-size: 200%;
+  
+}
+
+
+
+form uploadedFiles div > options {float:left;width: 100%;
     position: absolute;
+    bottom: 0;
+    left: 0;}
 
-    display: block;
-    font-size: 200%;}
+form uploadedFiles div > options > span{float: left;
+    font-size: 15pt;
+    color: #fff;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #444;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}}
 

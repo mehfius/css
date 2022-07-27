@@ -1,3 +1,9 @@
+body[mobile="0"] window form div[grid="1"] uploadedfiles div{width:148px;height:148px;}
+body[mobile="0"] window form div[grid="1"] uploadedfiles div:nth-child(5n+0){margin-right:0;} 
+
+body[mobile="0"] window form div[grid="1"] uploadedfiles mp4{width:148px;height:148px;}
+body[mobile="0"] window form div[grid="1"] uploadedfiles mp4:nth-child(5n+0){margin-right:0;} 
+
 body[mobile="0"] form div[grid="3"] {width:calc(33% - 24px);} 
 body[mobile="0"] form div[grid="2"] {width:calc(50% - 30px);}
 body[mobile="0"] form div[grid="1"] {width: calc(100% - 40px);} 

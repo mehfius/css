@@ -1219,6 +1219,90 @@ form > div[type="checkbox"] > opt icon{font-size:120%;margin-right:10px;}
 form > div[type="checkbox"] > opt[checked="0"] icon:before {content: "\ea53";}
 form > div[type="checkbox"] > opt[checked="1"] icon:before {content: "\ea52";}
 
+/*/home/runner/css/scripts/css/formfields/fileUploadJPG.css*/form uploadedFiles > div[type="jpg"] > options {}
+
+
+
+
+div[type="jpg"] > options > span.icon-bin {
+
+
+  
+}
+
+div[type="jpg"] > options > span.icon-search {
+  
+display:none;
+  
+}
+
+div[type="jpg"] > options > span.icon-undo {
+
+  
+}
+
+div[type="jpg"] > options > span.icon-redo {
+  
+
+}
+
+div[type="jpg"] > figure {
+  
+  cursor:pointer;
+  width:100%;
+  height:100%;
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:auto 100%;
+  
+}
+
+/*/home/runner/css/scripts/css/formfields/fileUploadMP4.css*/
+div[type="mp4"] > video {
+  
+float:left;
+  width:100%;
+}
+
+
+div[type="mp4"] > options > span.icon-bin {
+
+
+  
+}
+
+div[type="mp4"] > options > span.icon-play3 {
+  
+display:none;
+  
+}
+
+/*/home/runner/css/scripts/css/formfields/fileUploadPDF.css*/form uploadedFiles > .pdf h3{color: rgb(255, 255, 255);top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;position: absolute;}
+form uploadedFiles > .pdf {background-color:#000;}
+
+
+
+div[type="pdf"] > options > span.icon-bin {
+
+
+  
+}
+
+div[type="pdf"] > options > span.icon-search {
+
+  display:none;
+}
+div[type="pdf"] > figure {
+  
+  cursor:pointer;
+  width:100%;
+  height:100%;
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size:auto 150%;
+  
+}
+
 /*/home/runner/css/scripts/css/formfields/formData.css*//* Select */
 
 window form > div > [type="date"] {height:60px;}
@@ -1235,26 +1319,62 @@ form .fileupload {  position: relative;  cursor: pointer;   float: left;margin-l
 
 form .fileupload input[type=file] {  position: absolute;  top: 0;  right: 0;  margin: 0;  padding: 0;  font-size: 100%;  cursor: pointer;  opacity: 0;  width: 100%;height: 100%;}
 
-form uploadedFiles {  float: left;overflow: auto;white-space: nowrap;}
-form uploadedFiles > .pdf h3{color: rgb(255, 255, 255);top: 50%;transform: translateX(-50%) translateY(-50%);left: 50%;position: absolute;}
-form uploadedFiles > .pdf {background-color:#000;}
+form uploadedFiles {float: left;overflow: auto;white-space: nowrap;}
 
-form uploadedFiles > div {background-image:var(--loading);background-repeat:no-repeat;background-position:center center;position:relative;width:128px;height:128px;   margin-right: 10px; overflow: hidden;display: inline-block;}
-form uploadedFiles > div > figure {cursor:pointer;width:100%;height:100%;background-position: center center; background-repeat:no-repeat;background-size:cover; }
-form uploadedFiles > div > options { display: none;  position: absolute;bottom:0;right:0;width:100%;background-color:#444;}
-form uploadedFiles > div:hover > options { display: block; }
+form uploadedFiles div > label {
+  
+  top: calc(50% + 20px);
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+  position:absolute;
 
-form uploadedFiles > div > label {top: calc(50% + 20px);transform: translateX(-50%) translateY(-50%);left: 50%;position:absolute;}
-form uploadedFiles > div > options > span {color: #fff; padding:7px; font-size: 11pt; cursor: pointer;   display: block; float:left; }
+}
 
-form uploadedFiles div icon {-webkit-animation: spin 1.5s infinite linear;
-    top: calc(50% - 26px);
-    transform: translateX(-50%) translateY(-50%);
-    left: calc(50% - 16px);
+form uploadedFiles div {
+  
+/*   background-image:var(--loading); */
+  background-repeat:no-repeat;
+  background-position:center center;
+  position:relative;
+  margin-right: 10px;
+  overflow: hidden;
+
+  float:left;
+  margin-bottom:10px;
+  background-color:#eee;
+  
+}
+
+
+form uploadedFiles div icon {
+  
+  -webkit-animation: spin 1.5s infinite linear;
+  top: calc(50% - 26px);
+  transform: translateX(-50%) translateY(-50%);
+  left: calc(50% - 16px);
+  position: absolute;
+  display: block;
+  font-size: 200%;
+  
+}
+
+
+
+form uploadedFiles div > options {float:left;width: 100%;
     position: absolute;
+    bottom: 0;
+    left: 0;}
 
-    display: block;
-    font-size: 200%;}
+form uploadedFiles div > options > span{float: left;
+    font-size: 15pt;
+    color: #fff;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #444;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}}
 
 
 
@@ -2035,7 +2155,8 @@ body[mobile] window form > div {float: left;position:relative;margin-top:20px;ma
 body[mobile] window form > div > label {display: block;-webkit-tap-highlight-color: transparent;margin-bottom:10px;}
 body[mobile][areas='100'] window #divcrm {display:none;}
 
-body[mobile] window form div[grid="1"] uploadedfiles{width: 100%;height:150px;} 
+body[mobile] window form div[grid="1"] uploadedfiles{width: 100%;} 
+
 body[mobile] window form div[grid="1"] multipleview {width:800px;float:left;}
 body[mobile] window form div[grid="1"] multiplehidden {width: 780px;float:left;}
 
@@ -2053,7 +2174,13 @@ body[mobile] window form div[grid="3"] taghidden {width:100%;height:131px;}
 body[mobile] window form div[grid="2"] tooltipv2icon tooltipv2 {  width: 250px;height:90px;}
 
 
-/*/home/runner/css/scripts/css/theme/defaultFormDesktop.css*/body[mobile="0"] form div[grid="3"] {width:calc(33% - 24px);} 
+/*/home/runner/css/scripts/css/theme/defaultFormDesktop.css*/body[mobile="0"] window form div[grid="1"] uploadedfiles div{width:148px;height:148px;}
+body[mobile="0"] window form div[grid="1"] uploadedfiles div:nth-child(5n+0){margin-right:0;} 
+
+body[mobile="0"] window form div[grid="1"] uploadedfiles mp4{width:148px;height:148px;}
+body[mobile="0"] window form div[grid="1"] uploadedfiles mp4:nth-child(5n+0){margin-right:0;} 
+
+body[mobile="0"] form div[grid="3"] {width:calc(33% - 24px);} 
 body[mobile="0"] form div[grid="2"] {width:calc(50% - 30px);}
 body[mobile="0"] form div[grid="1"] {width: calc(100% - 40px);} 
 
@@ -2094,7 +2221,8 @@ body[mobile="1"] form div[gridmobile="1"] {}
 body[mobile="1"] form div[gridmobile="1"] .default{width:460px;} 
 body[mobile="1"] form div[gridmobile="1"] uploadedfiles{width:460px;} 
  */
-
+body[mobile="1"] window form div[grid="1"] uploadedfiles div{width:133px;height:173px;}
+body[mobile="1"] window form div[grid="1"] uploadedfiles div:nth-child(3n+0){margin-right:0;} 
 body[mobile="1"] form div[gridmobile="3"] {width:calc(33% - 24px);} 
 body[mobile="1"] form div[gridmobile="2"] {width:calc(50% - 30px);}
 body[mobile="1"] form div[gridmobile="1"] {width:calc(100% - 40px);} 
@@ -2154,6 +2282,9 @@ item[me="0"] detalhes > figure{cursor:pointer;}
  [theme="small"] item detalhes figure{margin:0 10px 0 0;}
  [theme="small"] item[view="0"] detalhes figure{width: 32px;height: 32px;}
  [theme="small"] item[view="1"] detalhes figure{width: 270px;height: 270px;}
+
+ [theme="small"] item[view="0"] detalhes video{width: 100%;height: 100%;background-color:#000}
+ [theme="small"] item[view="1"] detalhes video{width: 270px;height: 270px;background-color:#000}
 
  [theme="small"] item > options {z-index:20;float:right;width:auto;position: absolute;right: 0px;bottom: -40px;}
  [theme="small"] item:hover > options {display:block;}

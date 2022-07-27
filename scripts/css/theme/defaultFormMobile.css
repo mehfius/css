@@ -14,7 +14,8 @@ body[mobile="1"] form div[gridmobile="1"] {}
 body[mobile="1"] form div[gridmobile="1"] .default{width:460px;} 
 body[mobile="1"] form div[gridmobile="1"] uploadedfiles{width:460px;} 
  */
-
+body[mobile="1"] window form div[grid="1"] uploadedfiles div{width:133px;height:173px;}
+body[mobile="1"] window form div[grid="1"] uploadedfiles div:nth-child(3n+0){margin-right:0;} 
 body[mobile="1"] form div[gridmobile="3"] {width:calc(33% - 24px);} 
 body[mobile="1"] form div[gridmobile="2"] {width:calc(50% - 30px);}
 body[mobile="1"] form div[gridmobile="1"] {width:calc(100% - 40px);} 
